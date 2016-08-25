@@ -25,40 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Ejercicio1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio1/Ejercicio1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ejercicio1Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP1/test/ejercicio1/Ejercicio1Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DigitoMasAlto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio2/DigitoMasAlto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DigitoMasAltoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP1/test/ejercicio2/DigitoMasAltoTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,14 +94,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiplosTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MultiplosTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP1/test/ejercicio5/MultiplosTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="438">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GPS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio7/GPS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdenarReales.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio6/OrdenarReales.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdenarRealesTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP1/test/ejercicio6/OrdenarRealesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,6 +172,9 @@
         <option value="$PROJECT_DIR$/TP1/test/ejercicio4/Ejercicio4Test.java" />
         <option value="$PROJECT_DIR$/TP1/src/ejercicio5/Multiplos.java" />
         <option value="$PROJECT_DIR$/TP1/test/ejercicio5/MultiplosTest.java" />
+        <option value="$PROJECT_DIR$/TP1/src/ejercicio7/GPS.java" />
+        <option value="$PROJECT_DIR$/TP1/src/ejercicio6/OrdenarReales.java" />
+        <option value="$PROJECT_DIR$/TP1/test/ejercicio6/OrdenarRealesTest.java" />
       </list>
     </option>
   </component>
@@ -319,7 +322,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ejercicio5" />
+              <option name="myItemId" value="ejercicio7" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,7 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ejercicio4" />
+              <option name="myItemId" value="ejercicio6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,69 +383,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ejercicio6" />
       <recent name="ejercicio5" />
       <recent name="ejercicio4" />
       <recent name="ejercicio3" />
       <recent name="ejercicio2" />
-      <recent name="ejercicio1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiplosTest.multiploTest3">
-    <configuration default="false" name="DigitoMasAltoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ejercicio2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TP1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio2" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio2.DigitoMasAltoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ejercicio3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TP1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio3" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio3.FactorialTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.OrdenarRealesTest">
     <configuration default="false" name="Ejercicio4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -508,6 +459,58 @@
       <option name="PACKAGE_NAME" value="ejercicio5" />
       <option name="MAIN_CLASS_NAME" value="ejercicio5.MultiplosTest" />
       <option name="METHOD_NAME" value="multiploTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OrdenarRealesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ejercicio6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TP1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ejercicio6" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio6.OrdenarRealesTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OrdenarRealesTest.ordenarNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ejercicio6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TP1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ejercicio6" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio6.OrdenarRealesTest" />
+      <option name="METHOD_NAME" value="ordenarNumeros" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -943,19 +946,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DigitoMasAltoTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FactorialTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Ejercicio4Test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MultiplosTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MultiplosTest.multiploTest3" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Ejercicio4Test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MultiplosTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MultiplosTest.multiploTest3" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OrdenarRealesTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OrdenarRealesTest.ordenarNumeros" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MultiplosTest.multiploTest3" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MultiplosTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Ejercicio4Test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FactorialTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DigitoMasAltoTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OrdenarRealesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OrdenarRealesTest.ordenarNumeros" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MultiplosTest.multiploTest3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MultiplosTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Ejercicio4Test" />
       </list>
     </recent_temporary>
   </component>
@@ -974,26 +977,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472092746274</updated>
-      <workItem from="1472092747639" duration="6559000" />
+      <workItem from="1472092747639" duration="8366000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DigitoMasAltoTest - 2016.08.25 at 00h 45m 19s.xml">
-      <configuration name="DigitoMasAltoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Ejercicio1Test - 2016.08.25 at 00h 26m 24s.xml">
-      <configuration name="Ejercicio1Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Ejercicio4Test - 2016.08.25 at 01h 15m 21s.xml">
-      <configuration name="Ejercicio4Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Ejercicio4Test - 2016.08.25 at 01h 16m 18s.xml">
-      <configuration name="Ejercicio4Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FactorialTest - 2016.08.25 at 00h 58m 25s.xml">
-      <configuration name="FactorialTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MultiplosTest - 2016.08.25 at 01h 26m 13s.xml">
       <configuration name="MultiplosTest" configurationId="JUnit" />
     </history-entry>
@@ -1006,9 +994,27 @@
     <history-entry file="MultiplosTest_multiploTest3 - 2016.08.25 at 01h 30m 04s.xml">
       <configuration name="MultiplosTest.multiploTest3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrdenarRealesTest - 2016.08.25 at 01h 49m 02s.xml">
+      <configuration name="OrdenarRealesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrdenarRealesTest - 2016.08.25 at 01h 49m 33s.xml">
+      <configuration name="OrdenarRealesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrdenarRealesTest - 2016.08.25 at 01h 57m 25s.xml">
+      <configuration name="OrdenarRealesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrdenarRealesTest - 2016.08.25 at 01h 57m 57s.xml">
+      <configuration name="OrdenarRealesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrdenarRealesTest - 2016.08.25 at 02h 00m 28s.xml">
+      <configuration name="OrdenarRealesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrdenarRealesTest_ordenarNumeros - 2016.08.25 at 01h 52m 50s.xml">
+      <configuration name="OrdenarRealesTest.ordenarNumeros" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6559000" />
+    <option name="totallyTimeSpent" value="8366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="6" />
@@ -1016,12 +1022,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53286713" sideWeight="0.28969958" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.2825465" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2895105" sideWeight="0.71030045" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1030,7 +1036,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1077,7 +1083,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1099,9 +1105,9 @@
         <state relative-caret-position="278">
           <caret line="26" column="51" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#238#239#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1173,11 +1179,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP1/test/ejercicio5/MultiplosTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="438">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio7/GPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio6/OrdenarReales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP1/test/ejercicio6/OrdenarRealesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
