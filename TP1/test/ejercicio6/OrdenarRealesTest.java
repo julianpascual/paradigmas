@@ -3,7 +3,7 @@ package ejercicio6;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.Assert.*;
+
 
 /**
  * Created by julianpascual on 8/25/16.
