@@ -42,4 +42,13 @@ public class NumerosMasAltosTest {
         Assert.assertEquals(12, losMasAltos[1]);
     }
 
+    @Test
+    public void losMasAltos4() throws Exception {
+        int[] numeros = {7,7,1,2,3,4,5};
+        int[] losMasAltos = numAltos.losMasAltos(numeros);
+
+        Assert.assertEquals(7, losMasAltos[0]);
+        Assert.assertEquals(7, losMasAltos[1]);
+    }
+
 }
