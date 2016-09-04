@@ -24,6 +24,7 @@ public class Ejercicio3Test {
 //        ej3.main(new String[] {});
 //    }
 
+    //TODO: faltan los tests!!
 
     @Test
     public void testFuncionRandom() throws Exception{
