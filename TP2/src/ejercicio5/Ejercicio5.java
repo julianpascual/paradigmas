@@ -7,11 +7,13 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.ArrayList;
+import helpers.Helpers;
 
 /**
  * Created by julianpascual on 9/3/16.
  */
 public class Ejercicio5 {
+    private Helpers helper = new Helpers();
 
     public void generarArchivoResultados(int[] numeros) {
 
@@ -23,7 +25,7 @@ public class Ejercicio5 {
 
         for (int i = 0; i < numeros.length; i++) {
 
-            if (esPrimo(numeros[i])) {
+            if (helper.esPrimo(numeros[i])) {
                 arrayPrimos.add(numeros[i]);
             }
             if (esDivisor3000(numeros[i])) {
@@ -58,20 +60,6 @@ public class Ejercicio5 {
 
     public boolean esDivisor3000(int num){
         if (num % 3000 == 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public boolean esPrimo(int num) {
-        int cantDivisores = 0;
-        for (int i = 1; i <= num ; i++) {
-            if (num % i == 0) {
-                cantDivisores ++;
-            }
-        }
-        if (cantDivisores == 2) {
             return true;
         } else {
             return false;
