@@ -30,8 +30,8 @@ public class CaracolTest {
 
     @Test
     public void caracolRapido() throws Exception {
-        int cantDias = caracol.cuantoTardaEnSalir(10,10,0);
-        assertEquals(0,cantDias);
+        int cantDias = caracol.cuantoTardaEnSalir(10,10,2);
+        assertEquals(1,cantDias);
     }
 
     @Test

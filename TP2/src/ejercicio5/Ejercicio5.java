@@ -44,15 +44,6 @@ public class Ejercicio5 {
         escribirArchivo("promedios", "Promedio de pares: " + promedioPares + "\nPromedio de impares: " + promedioImpares);
     }
 
-    public String convertirArray(ArrayList<Integer> numeros) {
-        String texto = "";
-
-        for (int i = 0; i < numeros.size(); i++) {
-            texto = texto + numeros.get(i) + "\n";
-        }
-        return texto;
-    }
-
     public int promedioNumeros(ArrayList<Integer> numeros) {
 
         int prom;
@@ -89,7 +80,7 @@ public class Ejercicio5 {
 
     public void escribirArchivo(String fileName, String texto) {
         try {
-            File statText = new File(fileName + ".txt");
+            File statText = new File("resources/" + fileName + ".txt");
             FileOutputStream is = new FileOutputStream(statText);
             OutputStreamWriter osw = new OutputStreamWriter(is);
             Writer w = new BufferedWriter(osw);
@@ -101,4 +92,12 @@ public class Ejercicio5 {
 
     }
 
+    public String convertirArray(ArrayList<Integer> numeros) {
+        String texto = "";
+
+        for (int i = 0; i < numeros.size(); i++) {
+            texto = texto + numeros.get(i) + "\n";
+        }
+        return texto;
+    }
 }

@@ -5,19 +5,19 @@ package ejercicio8;
  */
 public class Caracol {
 
-    //TODO: Revisar algoritmo, creo que calcula mal
     public int cuantoTardaEnSalir(int profundidad, int sube, int retrocede){
         int cantDias = -1;
         boolean salio = false;
         int distRestante;
         if (sube > retrocede){
-            cantDias = 0;
+            cantDias = 1;
             distRestante = profundidad;
             while (!salio){
-                distRestante = distRestante - (sube - retrocede);
+                distRestante = distRestante - sube;
                 if (distRestante <= 0) {
                     salio = true;
                 } else {
+                    distRestante = distRestante + retrocede;
                     cantDias = cantDias + 1;
                 }
             }
