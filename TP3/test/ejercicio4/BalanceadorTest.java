@@ -17,21 +17,28 @@ public class BalanceadorTest {
     }
 
     @Test
-    public void checkExpression() throws Exception {
-        boolean estaBalanceada = balanceador.checkExpression("{[1+2+(3*4)]/4}");
+    public void evaluarExpresion() throws Exception {
+        boolean estaBalanceada = balanceador.expresionBalanceada("{[1+2+(3*4)]/4}");
         assertTrue(estaBalanceada);
     }
 
     @Test
-    public void checkExpressionSoloParentesis() throws Exception {
-        boolean estaBalanceada = balanceador.checkExpression("(3*4)/4");
+    public void evaluarExpresionCompleja() throws Exception {
+        boolean estaBalanceada = balanceador.expresionBalanceada("-3-[(-2)+(-1+4)]-{-2-[(-1+3)-2]}");
         assertTrue(estaBalanceada);
     }
 
     @Test
-    public void checkExpressionFalse() throws Exception {
-        boolean estaBalanceada = balanceador.checkExpression("{[1+2+3*4)]/4}");
+    public void evaluarExpresionSoloParentesis() throws Exception {
+        boolean estaBalanceada = balanceador.expresionBalanceada("(3*4)/4");
+        assertTrue(estaBalanceada);
+    }
+
+    @Test
+    public void evaluarExpresionFalsa() throws Exception {
+        boolean estaBalanceada = balanceador.expresionBalanceada("{[1+2+(3*4)]/4");
         assertFalse(estaBalanceada);
     }
 
 }
+

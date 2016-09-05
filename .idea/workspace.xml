@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="23f7c325-0823-4417-94cd-46e9ecc4d5c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP3/src/ejercicio4/Balanceador.java" afterPath="$PROJECT_DIR$/TP3/src/ejercicio4/Balanceador.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP3/test/ejercicio4/BalanceadorTest.java" afterPath="$PROJECT_DIR$/TP3/test/ejercicio4/BalanceadorTest.java" />
     </list>
     <ignored path="Paradigmas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,8 +84,8 @@
       <file leaf-file-name="Balanceador.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio4/Balanceador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="630">
+              <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -92,8 +94,8 @@
       <file leaf-file-name="BalanceadorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio4/BalanceadorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="329">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -238,108 +240,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ejercicio4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ejercicio3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ejercicio2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ejercicio1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -373,54 +273,7 @@
       <recent name="$PROJECT_DIR$/TP2/src/ejercicio7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BalanceadorTest">
-    <configuration default="false" name="All in TP2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="TP2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExpresionesAritmeticasTest.resolverExpresion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ejercicio1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TP3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio1" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio1.ExpresionesAritmeticasTest" />
-      <option name="METHOD_NAME" value="resolverExpresion" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BalanceadorTest.evaluarExpresionCompleja">
     <configuration default="false" name="ExpresionesAritmeticasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -487,6 +340,58 @@
       <option name="MAIN_CLASS_NAME" value="ejercicio4.BalanceadorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BalanceadorTest.checkExpressionFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ejercicio4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TP3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ejercicio4" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio4.BalanceadorTest" />
+      <option name="METHOD_NAME" value="checkExpressionFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BalanceadorTest.evaluarExpresionCompleja" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ejercicio4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TP3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ejercicio4" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio4.BalanceadorTest" />
+      <option name="METHOD_NAME" value="evaluarExpresionCompleja" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -928,19 +833,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in TP2" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest.resolverExpresion" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BalanceadorTest.checkExpression" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BalanceadorTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BalanceadorTest.checkExpression" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BalanceadorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BalanceadorTest.checkExpressionFalse" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BalanceadorTest.evaluarExpresionCompleja" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BalanceadorTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BalanceadorTest.checkExpression" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest.resolverExpresion" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in TP2" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BalanceadorTest.evaluarExpresionCompleja" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BalanceadorTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BalanceadorTest.checkExpressionFalse" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BalanceadorTest.checkExpression" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest" />
       </list>
     </recent_temporary>
   </component>
@@ -967,7 +872,7 @@
       <workItem from="1472310202331" duration="913000" />
       <workItem from="1472425645223" duration="1075000" />
       <workItem from="1472426734189" duration="296000" />
-      <workItem from="1472427044716" duration="31537000" />
+      <workItem from="1472427044716" duration="32826000" />
     </task>
     <servers />
   </component>
@@ -975,8 +880,23 @@
     <history-entry file="BalanceadorTest - 2016.09.05 at 02h 52m 16s.xml">
       <configuration name="BalanceadorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BalanceadorTest - 2016.09.05 at 02h 53m 35s.xml">
+      <configuration name="BalanceadorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BalanceadorTest - 2016.09.05 at 03h 08m 53s.xml">
+      <configuration name="BalanceadorTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BalanceadorTest_checkExpression - 2016.09.05 at 02h 51m 49s.xml">
       <configuration name="BalanceadorTest.checkExpression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BalanceadorTest_checkExpression - 2016.09.05 at 03h 03m 32s.xml">
+      <configuration name="BalanceadorTest.checkExpression" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BalanceadorTest_checkExpressionFalse - 2016.09.05 at 03h 03m 57s.xml">
+      <configuration name="BalanceadorTest.checkExpressionFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BalanceadorTest_evaluarExpresionCompleja - 2016.09.05 at 03h 14m 54s.xml">
+      <configuration name="BalanceadorTest.evaluarExpresionCompleja" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExpresionesAritmeticasTest - 2016.09.05 at 02h 23m 33s.xml">
       <configuration name="ExpresionesAritmeticasTest" configurationId="JUnit" />
@@ -984,27 +904,12 @@
     <history-entry file="ExpresionesAritmeticasTest - 2016.09.05 at 02h 24m 13s.xml">
       <configuration name="ExpresionesAritmeticasTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 00m 13s.xml">
-      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 09m 23s.xml">
-      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 13m 38s.xml">
-      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 14m 12s.xml">
-      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 16m 51s.xml">
-      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 17m 00s.xml">
       <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42607000" />
+    <option name="totallyTimeSpent" value="43896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,18 +931,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28861788" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.2811159" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090909" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23636363" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2881119" sideWeight="0.49444443" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24475524" sideWeight="0.6537911" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090129" sideWeight="0.4925926" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2160229" sideWeight="0.4925926" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090129" sideWeight="0.5074074" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5104895" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06153846" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1115,14 +1020,8 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP3/test/ejercicio4/BalanceadorTest.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1515,6 +1414,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio2/Prolog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio1/ExpresionesAritmeticasTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1522,14 +1429,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio2/Prolog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1543,16 +1442,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio4/Balanceador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="630">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio4/BalanceadorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="329">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding />
         </state>
       </provider>
