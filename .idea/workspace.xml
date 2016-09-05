@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="23f7c325-0823-4417-94cd-46e9ecc4d5c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java" afterPath="$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP2/src/ejercicio6/Ejercicio6.java" afterPath="$PROJECT_DIR$/TP2/src/ejercicio6/Ejercicio6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP2/src/ejercicio9/MergeArchivos.java" afterPath="$PROJECT_DIR$/TP2/src/ejercicio9/MergeArchivos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP2/src/helpers/Helpers.java" afterPath="$PROJECT_DIR$/TP2/src/helpers/Helpers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP3/TP3.iml" afterPath="$PROJECT_DIR$/TP3/TP3.iml" />
     </list>
     <ignored path="Paradigmas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,116 +40,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Ejercicio5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java">
+      <file leaf-file-name="ExpresionesAritmeticas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio1/ExpresionesAritmeticas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#475#484#0" expanded="true" />
-                <element signature="e#543#552#0" expanded="true" />
-                <element signature="e#610#619#0" expanded="true" />
-                <element signature="e#678#687#0" expanded="true" />
-                <element signature="method#promedioNumeros#0;class#Ejercicio5#0" expanded="false" />
-                <element signature="method#esDivisor3000#0;class#Ejercicio5#0" expanded="false" />
-                <element signature="method#escribirArchivo#0;class#Ejercicio5#0" expanded="false" />
-                <element signature="method#convertirArray#0;class#Ejercicio5#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Helpers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/src/helpers/Helpers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="193">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ejercicio6.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio6/Ejercicio6.java">
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ejercicio6Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio6/Ejercicio6Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ejercicio3Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio3/Ejercicio3Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ejercicio3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio3/Ejercicio3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbueloTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio4/AbueloTest.java">
+      <file leaf-file-name="ExpresionesAritmeticasTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio1/ExpresionesAritmeticasTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RectangulosTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio7/RectangulosTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaracolTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio8/CaracolTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ejercicio5Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio5/Ejercicio5Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding />
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +111,6 @@
         <option value="$PROJECT_DIR$/TP2/src/ejercicio2/Ejercicio2.java" />
         <option value="$PROJECT_DIR$/TP2/test/ejercicio1/Ejercicio1Test.java" />
         <option value="$PROJECT_DIR$/TP2/test/ejercicio2/Ejercicio2Test.java" />
-        <option value="$PROJECT_DIR$/TP2/src/ejercicio9/MergeArchivos.java" />
         <option value="$PROJECT_DIR$/TP2/test/ejercicio4/AbueloTest.java" />
         <option value="$PROJECT_DIR$/TP2/src/ejercicio4/Abuelo.java" />
         <option value="$PROJECT_DIR$/TP2/src/ejercicio1/NumerosMasAltos.java" />
@@ -204,10 +122,13 @@
         <option value="$PROJECT_DIR$/TP2/test/ejercicio7/RectangulosTest.java" />
         <option value="$PROJECT_DIR$/TP2/test/ejercicio5/Ejercicio5Test.java" />
         <option value="$PROJECT_DIR$/TP2/test/ejercicio3/Ejercicio3Test.java" />
-        <option value="$PROJECT_DIR$/TP2/src/helpers/Helpers.java" />
-        <option value="$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java" />
-        <option value="$PROJECT_DIR$/TP2/src/ejercicio6/Ejercicio6.java" />
+        <option value="$PROJECT_DIR$/TP2/src/ejercicio9/MergeArchivos.java" />
         <option value="$PROJECT_DIR$/TP2/test/ejercicio6/Ejercicio6Test.java" />
+        <option value="$PROJECT_DIR$/TP2/src/ejercicio6/Ejercicio6.java" />
+        <option value="$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java" />
+        <option value="$PROJECT_DIR$/TP2/src/helpers/Helpers.java" />
+        <option value="$PROJECT_DIR$/TP3/src/ejercicio1/ExpresionesAritmeticas.java" />
+        <option value="$PROJECT_DIR$/TP3/test/ejercicio1/ExpresionesAritmeticasTest.java" />
       </list>
     </option>
   </component>
@@ -287,7 +208,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TP2" />
+              <option name="myItemId" value="TP3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,33 +222,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TP2" />
+              <option name="myItemId" value="TP3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="ejercicio1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,7 +244,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TP2" />
+              <option name="myItemId" value="TP3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -349,7 +252,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ejercicio5" />
+              <option name="myItemId" value="ejercicio1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,11 +276,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ejercicio1" />
       <recent name="ejercicio6" />
       <recent name="ejercicio7" />
       <recent name="ejercicio5" />
       <recent name="ejercicio3" />
-      <recent name="ejercicio4" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -386,85 +289,7 @@
       <recent name="$PROJECT_DIR$/TP2/src/ejercicio7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ejercicio6Test">
-    <configuration default="false" name="CaracolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ejercicio8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TP2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio8" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio8.CaracolTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CaracolTest.caracolRapido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ejercicio8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TP2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio8" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio8.CaracolTest" />
-      <option name="METHOD_NAME" value="caracolRapido" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RectangulosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ejercicio7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TP2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio7" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio7.RectangulosTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExpresionesAritmeticasTest">
     <configuration default="false" name="Ejercicio3Test.testFuncionRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -503,6 +328,79 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ejercicio6" />
       <option name="MAIN_CLASS_NAME" value="ejercicio6.Ejercicio6Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in TP2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TP2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExpresionesAritmeticasTest.resolverExpresion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TP3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio1.ExpresionesAritmeticasTest" />
+      <option name="METHOD_NAME" value="resolverExpresion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExpresionesAritmeticasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TP3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio1.ExpresionesAritmeticasTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -946,19 +844,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CaracolTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CaracolTest.caracolRapido" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RectangulosTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Ejercicio3Test.testFuncionRandom" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Ejercicio6Test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Ejercicio3Test.testFuncionRandom" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Ejercicio6Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in TP2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest.resolverExpresion" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Ejercicio6Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Ejercicio3Test.testFuncionRandom" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RectangulosTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CaracolTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CaracolTest.caracolRapido" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExpresionesAritmeticasTest.resolverExpresion" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in TP2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Ejercicio6Test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Ejercicio3Test.testFuncionRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -985,44 +883,44 @@
       <workItem from="1472310202331" duration="913000" />
       <workItem from="1472425645223" duration="1075000" />
       <workItem from="1472426734189" duration="296000" />
-      <workItem from="1472427044716" duration="26428000" />
+      <workItem from="1472427044716" duration="29968000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaracolTest - 2016.09.04 at 19h 36m 03s.xml">
-      <configuration name="CaracolTest" configurationId="JUnit" />
+    <history-entry file="All_in_TP2 - 2016.09.04 at 21h 03m 14s.xml">
+      <configuration name="All in TP2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CaracolTest - 2016.09.04 at 19h 37m 58s.xml">
-      <configuration name="CaracolTest" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest - 2016.09.05 at 02h 23m 33s.xml">
+      <configuration name="ExpresionesAritmeticasTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CaracolTest - 2016.09.04 at 19h 39m 24s.xml">
-      <configuration name="CaracolTest" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 01h 56m 25s.xml">
+      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CaracolTest - 2016.09.04 at 19h 40m 53s.xml">
-      <configuration name="CaracolTest" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 01h 59m 35s.xml">
+      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CaracolTest_caracolRapido - 2016.09.04 at 19h 36m 25s.xml">
-      <configuration name="CaracolTest.caracolRapido" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 00m 13s.xml">
+      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ejercicio3Test_testFuncionRandom - 2016.09.04 at 20h 08m 44s.xml">
-      <configuration name="Ejercicio3Test.testFuncionRandom" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 09m 23s.xml">
+      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ejercicio5Test - 2016.09.04 at 19h 32m 24s.xml">
-      <configuration name="Ejercicio5Test" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 13m 38s.xml">
+      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ejercicio5Test_generarArchivoResultados - 2016.09.04 at 19h 33m 41s.xml">
-      <configuration name="Ejercicio5Test.generarArchivoResultados" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 14m 12s.xml">
+      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Ejercicio6Test - 2016.09.04 at 20h 49m 56s.xml">
-      <configuration name="Ejercicio6Test" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 16m 51s.xml">
+      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RectangulosTest - 2016.09.04 at 20h 06m 18s.xml">
-      <configuration name="RectangulosTest" configurationId="JUnit" />
+    <history-entry file="ExpresionesAritmeticasTest_resolverExpresion - 2016.09.05 at 02h 17m 00s.xml">
+      <configuration name="ExpresionesAritmeticasTest.resolverExpresion" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37498000" />
+    <option name="totallyTimeSpent" value="41038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1044,7 +942,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28861788" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.2811159" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2979021" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090909" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2881119" sideWeight="0.49444443" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24475524" sideWeight="0.6537911" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1055,7 +953,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090129" sideWeight="0.5074074" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24195804" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5104895" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1127,8 +1025,14 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TP3/test/ejercicio1/ExpresionesAritmeticasTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1137,27 +1041,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TP1/test/ejercicio3/FactorialTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio4/Ejercicio4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP1/test/ejercicio4/Ejercicio4Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio5/Multiplos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1383,70 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio9/MergeArchivos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio1/NumerosMasAltos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio4/Abuelo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio2/Ejercicio2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio8/Caracol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio7/Rectangulos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio1/NumerosMasAltosTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -1481,14 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio7/RectangulosTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio8/CaracolTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -1507,6 +1318,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio6/Ejercicio6Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/src/helpers/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio7/RectangulosTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio1/NumerosMasAltos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio2/Ejercicio2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio3/Ejercicio3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -1517,12 +1368,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio4/Abuelo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#generarArchivoResultados#0;class#Ejercicio5#0" expanded="false" />
             <element signature="e#475#484#0" expanded="true" />
             <element signature="e#543#552#0" expanded="true" />
             <element signature="e#610#619#0" expanded="true" />
@@ -1535,27 +1395,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/helpers/Helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio6/Ejercicio6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio6/Ejercicio6Test.java">
+    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio7/Rectangulos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio8/Caracol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio9/MergeArchivos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio1/ExpresionesAritmeticas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio1/ExpresionesAritmeticasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

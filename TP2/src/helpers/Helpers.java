@@ -3,7 +3,7 @@ package helpers;
 /**
  * Created by julianpascual on 9/4/16.
  */
-public class Helpers {
+public final class Helpers {
 
     public boolean esPrimo(int num) {
         int cantDivisores = 0;
