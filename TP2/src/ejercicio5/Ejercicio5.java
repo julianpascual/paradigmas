@@ -59,7 +59,7 @@ public class Ejercicio5 {
     }
 
     public boolean esDivisor3000(int num){
-        if (num % 3000 == 0) {
+        if (3000 % num == 0) {
             return true;
         } else {
             return false;
