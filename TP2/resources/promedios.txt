@@ -1,2 +1,2 @@
-Promedio de pares: 1205
+Promedio de pares: 421
 Promedio de impares: 5
