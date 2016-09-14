@@ -42,7 +42,7 @@ public class Ejercicio5 {
         promedioPares = promedioNumeros(arrayPares);
 
         escribirArchivo("primos", convertirArray(arrayPrimos));
-        escribirArchivo("divisores de 300", convertirArray(arrayDiv3000));
+        escribirArchivo("divisores de 3000", convertirArray(arrayDiv3000));
         escribirArchivo("promedios", "Promedio de pares: " + promedioPares + "\nPromedio de impares: " + promedioImpares);
     }
 

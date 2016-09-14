@@ -20,7 +20,7 @@ public class Ejercicio5Test {
 
     @Test
     public void generarArchivoResultados() throws Exception {
-        ej5.generarArchivoResultados(new int[]{1,2,5,4,8,9,7,12,6000});
+        ej5.generarArchivoResultados(new int[]{1,2,5,4,8,9,7,12,1000,1500});
     }
 
 }
