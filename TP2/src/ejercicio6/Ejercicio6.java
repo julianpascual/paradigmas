@@ -1,12 +1,11 @@
 package ejercicio6;
 
-import helpers.Helpers;
+import static helpers.Helpers.esPrimo;
 
 /**
  * Created by julianpascual on 9/4/16.
  */
 public class Ejercicio6 {
-    private Helpers helper = new Helpers();
 
     public int[] primosGemelos(int desdeNum) {
 
@@ -15,7 +14,7 @@ public class Ejercicio6 {
 
         while (!encontrados) {
             desdeNum ++;
-            if (helper.esPrimo(desdeNum) & helper.esPrimo(desdeNum + 2)){
+            if (esPrimo(desdeNum) & esPrimo(desdeNum + 2)){
                 gemelos[0] = desdeNum;
                 gemelos[1] = desdeNum + 2;
                 encontrados = true;

@@ -5,7 +5,7 @@ package helpers;
  */
 public final class Helpers {
 
-    public boolean esPrimo(int num) {
+    public static boolean esPrimo(int num) {
         int cantDivisores = 0;
         for (int i = 1; i <= num ; i++) {
             if (num % i == 0) {
