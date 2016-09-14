@@ -1,5 +1,6 @@
-package ejercicio4;
+package ejercicio5;
 
+import ejercicio5.Balanceador;
 import org.junit.Before;
 import org.junit.Test;
 
