@@ -31,10 +31,21 @@ public class IngredienteDAO {
         }
     }
 
+    public static void limpiarTablaIngredientes() {
+
+        try{
+            Connection con = getConnection();
+            Statement st =  con.createStatement();
+            String query = "DELETE FROM INGREDIENTE";
+            st.execute(query);
+        }catch (Exception ex){
+
+        }
+
+    }
+
     public static Connection getConnection(){
-
         Connection dbConnection = null;
-
         try {
             Class.forName("org.h2.Driver");
             dbConnection = DriverManager.getConnection(connectionString,"julian","");
@@ -42,7 +53,6 @@ public class IngredienteDAO {
         } catch (Exception ex) {
             return dbConnection;
         }
-
     }
 
 }

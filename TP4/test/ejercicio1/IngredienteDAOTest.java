@@ -1,5 +1,6 @@
 package ejercicio1;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -25,6 +26,11 @@ public class IngredienteDAOTest {
     @Test
     public void altaIngrediente() throws Exception {
 
+    }
+
+    @After
+    public void tearDown() throws Exception {
+        IngredienteDAO.limpiarTablaIngredientes();
     }
 
 }
