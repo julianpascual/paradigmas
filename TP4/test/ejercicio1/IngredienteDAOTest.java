@@ -1,8 +1,13 @@
 package ejercicio1;
 
+import java.util.List;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import static java.util.Arrays.asList;
+import static org.junit.Assert.*;
+
 
 
 /**
@@ -24,8 +29,21 @@ public class IngredienteDAOTest {
     }
 
     @Test
-    public void altaIngrediente() throws Exception {
+    public void testCargaInicial() throws Exception {
+        List<String> esperado = asList("papa","carneParaMilanesa","panRallado","huevo","lechuga","tomate","fideos","salsa","cebolla");
+        List<String> resultado = IngredienteDAO.devolverIngredientes();
+        assertArrayEquals(esperado.toArray(),resultado.toArray());
+    }
 
+    @Test
+    public void testAltaIngrediente() throws Exception {
+
+    }
+
+    @Test
+    public void testBajaIngrediente() throws Exception {
+        int resultado = IngredienteDAO.bajaIngrediente("huevo");
+        assertEquals(1,resultado);
     }
 
     @After
