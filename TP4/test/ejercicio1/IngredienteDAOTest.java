@@ -8,8 +8,6 @@ import org.junit.Test;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.*;
 
-
-
 /**
  * Created by Julian on 16/9/16.
  */
@@ -42,8 +40,12 @@ public class IngredienteDAOTest {
 
     @Test
     public void testBajaIngrediente() throws Exception {
-        int resultado = IngredienteDAO.bajaIngrediente("huevo");
+        String ingredienteBorrar = "huevo";
+        int resultado = IngredienteDAO.bajaIngrediente(ingredienteBorrar);
         assertEquals(1,resultado);
+
+        List<String> ingredientes = IngredienteDAO.devolverIngredientes();
+        assertTrue(!ingredientes.contains(ingredienteBorrar));
     }
 
     @After
