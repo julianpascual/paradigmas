@@ -1,13 +1,10 @@
 package ejercicio1;
 
-import com.apple.eawt.AppEvent;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.List;
 
 import static helpers.Helpers.getConnection;
 
@@ -69,13 +66,13 @@ public class PlatoDAO {
             st.execute(query);
     }
 
-    public static void agregarRelacionPlatoIngrediente(String nombre, ArrayList<String> ingredientes) throws Exception{
+    private static void agregarRelacionPlatoIngrediente(String nombre, ArrayList<String> ingredientes) throws Exception{
         PreparedStatement st;
         for (String ingrediente : ingredientes) {
             st = connection.prepareStatement(
-                    "INSERT INTO PLATO_INGREDIENTE (ID_PLATO, ID_INGREDIENTE)" +
-                            "SELECT p.ID, i.ID" +
-                            "FROM PLATO p, INGREDIENTE i" +
+                    "INSERT INTO PLATO_INGREDIENTE (ID_PLATO, ID_INGREDIENTE) " +
+                            "SELECT p.ID, i.ID " +
+                            "FROM PLATO p, INGREDIENTE i " +
                             "WHERE p.NOMBRE = ? AND i.NOMBRE = ?"
             );
             st.setString(1, nombre);
@@ -84,7 +81,7 @@ public class PlatoDAO {
         }
     }
 
-    public static void limpiarRelacionesPlato(String nombre) throws Exception{
+    private static void limpiarRelacionesPlato(String nombre) throws Exception{
         PreparedStatement st;
         st = connection.prepareStatement(
                 "DELETE FROM PLATO_INGREDIENTE " +

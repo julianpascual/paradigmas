@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import static java.util.Arrays.asList;
 import static org.junit.Assert.*;
+import static helperCargaDatos.CargaDatosPrueba.cargarIngredientes;
 
 /**
  * Created by Julian on 16/9/16.
@@ -15,15 +16,7 @@ public class IngredienteDAOTest {
 
     @Before
     public void setUp() throws Exception {
-        IngredienteDAO.altaIngrediente("papa", "verdura");
-        IngredienteDAO.altaIngrediente("carneParaMilanesa", "carne");
-        IngredienteDAO.altaIngrediente("panRallado","otros");
-        IngredienteDAO.altaIngrediente("huevo","otros");
-        IngredienteDAO.altaIngrediente("lechuga","verdura");
-        IngredienteDAO.altaIngrediente("tomate","verdura");
-        IngredienteDAO.altaIngrediente("fideos","pasta");
-        IngredienteDAO.altaIngrediente("salsa","salsa");
-        IngredienteDAO.altaIngrediente("cebolla","verdura");
+        cargarIngredientes();
     }
 
     @Test
