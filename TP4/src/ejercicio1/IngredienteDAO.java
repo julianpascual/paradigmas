@@ -12,7 +12,6 @@ import static helpers.Helpers.getConnection;
 public class IngredienteDAO {
     private static Connection con = getConnection();
 
-    //modificarIngrediente(nombreViejo, nombreNuevo, tipoNuevo)
 
     public static int altaIngrediente(String nombre, String tipo){
 

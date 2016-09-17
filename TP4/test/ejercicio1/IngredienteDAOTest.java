@@ -36,8 +36,10 @@ public class IngredienteDAOTest {
     @Test
     public void testAltaIngrediente() throws Exception {
         IngredienteDAO.altaIngrediente("manteca", "lacteo");
-        assertTrue(IngredienteDAO.devolverIngredientes().contains("manteca"));
-        assertEquals(10, IngredienteDAO.devolverIngredientes().size());
+
+        List<String> ingredientes = IngredienteDAO.devolverIngredientes();
+        assertTrue(ingredientes.contains("manteca"));
+        assertEquals(10, ingredientes.size());
     }
 
     @Test
