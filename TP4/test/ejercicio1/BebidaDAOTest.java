@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.accessibility.AccessibleStateSet;
+import java.sql.ResultSet;
 import java.util.List;
 
 import static java.util.Arrays.asList;
@@ -49,12 +51,13 @@ public class BebidaDAOTest {
 
     @Test
     public void testModificarBebida() throws Exception {
-        int result = BebidaDAO.modificarBebida("cervezaStella", "cervezaQuilmes", "litro", "chop",35);
+        int result = BebidaDAO.modificarBebida("cervezaStella", "cervezaImperial", "litro", "chop",35);
         assertEquals(1, result);
 
         List<String> bebidas = BebidaDAO.devolverBebidas();
         assertTrue(bebidas.size() == 4);
-//        TODO get item
+
+        assertTrue(bebidas.contains("cervezaImperial"));
     }
 
     @After

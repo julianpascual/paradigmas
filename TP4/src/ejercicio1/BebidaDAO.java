@@ -61,6 +61,21 @@ public class BebidaDAO {
         }
     }
 
+    public static ResultSet devolverBebida(String nombre, String tamaño){
+        ResultSet rs = null;
+        try{
+            PreparedStatement st =  connection.prepareStatement(
+                    "SELECT * FROM BEBIDA WHERE NOMBRE = ? AND TAMAÑO = ?"
+            );
+            st.setString(1,nombre);
+            st.setString(2,tamaño);
+            rs = st.executeQuery();
+        }catch (Exception ex){
+        } finally {
+            return rs;
+        }
+    }
+
     public static int modificarBebida(String nombreViejo, String nombreNuevo, String tamañoViejo, String tamañoNuevo,int precioNuevo) {
         try{
             PreparedStatement st = connection.prepareStatement(
