@@ -35,7 +35,9 @@ public class IngredienteDAOTest {
 
     @Test
     public void testAltaIngrediente() throws Exception {
-
+        IngredienteDAO.altaIngrediente("manteca", "lacteo");
+        assertTrue(IngredienteDAO.devolverIngredientes().contains("manteca"));
+        assertEquals(10, IngredienteDAO.devolverIngredientes().size());
     }
 
     @Test
@@ -45,12 +47,22 @@ public class IngredienteDAOTest {
         assertEquals(1,resultado);
 
         List<String> ingredientes = IngredienteDAO.devolverIngredientes();
-        assertTrue(!ingredientes.contains(ingredienteBorrar));
+        assertFalse(ingredientes.contains(ingredienteBorrar));
+    }
+
+    @Test
+    public void testModificarIngrediente() throws Exception {
+        int result = IngredienteDAO.modificarIngrediente("salsa", "cafe", "otros");
+        assertEquals(1, result);
+
+        List<String> ingredientes = IngredienteDAO.devolverIngredientes();
+        assertTrue(ingredientes.size() == 9);
+        assertTrue(ingredientes.contains("cafe"));
+        assertFalse(ingredientes.contains("salsa"));
     }
 
     @After
     public void tearDown() throws Exception {
         IngredienteDAO.limpiarTablaIngredientes();
     }
-
 }
