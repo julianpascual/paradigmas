@@ -17,55 +17,56 @@ import static helpers.Helpers.getConnection;
 public class PlatoDAO {
     private static Connection connection = getConnection();
 
-    public static void altaPlato(String nombre, ArrayList<String> ingredientes, int precio) {
-        try{
-
+    public static void altaPlato(String nombre, ArrayList<String> ingredientes, int precio) throws Exception{
             PreparedStatement st = connection.prepareStatement(
                     "INSERT INTO PLATO (NOMBRE,PRECIO) VALUES (?,?)"
             );
             st.setString(1,nombre);
             st.setInt(2, precio);
             st.executeUpdate();
-
             agregarRelacionPlatoIngrediente(nombre, ingredientes);
-
-        } catch (Exception ex) {
-        }
     }
 
-    public static void bajaPlato(String nombre) {
-
+    public static int bajaPlato(String nombre) throws Exception{
+        limpiarRelacionesPlato(nombre);
+        PreparedStatement st =  connection.prepareStatement(
+                "DELETE FROM PLATO WHERE NOMBRE = ? "
+        );
+        st.setString(1,nombre);
+        return st.executeUpdate();
     }
 
-    public static void modificarPlato(String nombreViejo, ArrayList<String> ingredientesNuevo, int precioNuevo) {
-
+    public static void modificarPlato(String nombreViejo, String nombreNuevo, ArrayList<String> ingredientesNuevo, int precioNuevo) throws Exception{
+        limpiarRelacionesPlato(nombreViejo);
+        PreparedStatement st = connection.prepareStatement(
+                "UPDATE PLATO SET NOMBRE = ?," +
+                        "PRECIO = ?" +
+                        "WHERE NOMBRE = ?"
+        );
+        st.setString(1, nombreNuevo);
+        st.setInt(2, precioNuevo);
+        st.setString(3, nombreViejo);
+        st.executeUpdate();
+        agregarRelacionPlatoIngrediente(nombreNuevo, ingredientesNuevo);
     }
 
-    public static ArrayList<String> devolverPlatos() {
+    public static ArrayList<String> devolverPlatos() throws Exception{
         ArrayList<String> platos = new ArrayList<>();
-        try{
-            Statement st =  connection.createStatement();
-            String query = "SELECT * FROM PLATO";
-            ResultSet rs = st.executeQuery(query);
-            while(rs.next()) {
-                platos.add(rs.getString("NOMBRE"));
-            }
-        }catch (Exception ex){
-
-        } finally {
-            return platos;
+        Statement st =  connection.createStatement();
+        String query = "SELECT * FROM PLATO";
+        ResultSet rs = st.executeQuery(query);
+        while(rs.next()) {
+            platos.add(rs.getString("NOMBRE"));
         }
+        return platos;
     }
 
-    public static void limpiarTablaPlatos() {
-        try{
+    public static void limpiarTablaPlatos() throws Exception{
             Statement st =  connection.createStatement();
             String query = "DELETE FROM PLATO_INGREDIENTE";
             st.execute(query);
             query = "DELETE FROM PLATO";
             st.execute(query);
-        }catch (Exception ex){
-        }
     }
 
     public static void agregarRelacionPlatoIngrediente(String nombre, ArrayList<String> ingredientes) throws Exception{
@@ -81,5 +82,15 @@ public class PlatoDAO {
             st.setString(2, ingrediente);
             st.executeUpdate();
         }
+    }
+
+    public static void limpiarRelacionesPlato(String nombre) throws Exception{
+        PreparedStatement st;
+        st = connection.prepareStatement(
+                "DELETE FROM PLATO_INGREDIENTE " +
+                        "WHERE ID_PLATO IN (SELECT ID FROM PLATO WHERE NOMBRE = ?)"
+        );
+        st.setString(1,nombre);
+        st.execute();
     }
 }
