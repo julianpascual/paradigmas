@@ -15,98 +15,69 @@ import static helpers.Helpers.getConnection;
 public class BebidaDAO {
     private static Connection connection = getConnection();
 
-    public static int altaBebida(String nombre, String tamaño, int precio){
-        try{
-
-            PreparedStatement insertIng = connection.prepareStatement(
-                    "INSERT INTO BEBIDA (NOMBRE,TAMAÑO,PRECIO) VALUES (?,?,?)"
-            );
-            insertIng.setString(1,nombre);
-            insertIng.setString(2,tamaño);
-            insertIng.setInt(3, precio);
-            return insertIng.executeUpdate();
-
-        } catch (Exception ex) {
-            return 0;
-        }
+    public static int altaBebida(String nombre, String tamaño, int precio) throws Exception{
+        PreparedStatement insertIng = connection.prepareStatement(
+                "INSERT INTO BEBIDA (NOMBRE,TAMAÑO,PRECIO) VALUES (?,?,?)"
+        );
+        insertIng.setString(1,nombre);
+        insertIng.setString(2,tamaño);
+        insertIng.setInt(3, precio);
+        return insertIng.executeUpdate();
     }
 
-    public static int bajaBebida(String nombre, String tamaño){
-        try{
-            PreparedStatement st =  connection.prepareStatement(
-                    "DELETE FROM BEBIDA WHERE NOMBRE = ? " +
-                            "AND TAMAÑO = ?"
-            );
-            st.setString(1,nombre);
-            st.setString(2,tamaño);
-            return st.executeUpdate();
-        } catch (Exception ex) {
-            return 0;
-        }
+    public static int bajaBebida(String nombre, String tamaño) throws Exception{
+        PreparedStatement st =  connection.prepareStatement(
+                "DELETE FROM BEBIDA WHERE NOMBRE = ? " +
+                        "AND TAMAÑO = ?"
+        );
+        st.setString(1,nombre);
+        st.setString(2,tamaño);
+        return st.executeUpdate();
     }
 
-    public static List<String> devolverBebidas(){
+    public static List<String> devolverBebidas() throws Exception{
         List<String> bebidas = new ArrayList<String>();
-        try{
-            Statement st =  connection.createStatement();
-            String query = "SELECT * FROM BEBIDA";
-            ResultSet rs = st.executeQuery(query);
-            while(rs.next()) {
-                bebidas.add(rs.getString("NOMBRE"));
-            }
-        }catch (Exception ex){
-
-        } finally {
-            return bebidas;
+        Statement st =  connection.createStatement();
+        String query = "SELECT * FROM BEBIDA";
+        ResultSet rs = st.executeQuery(query);
+        while(rs.next()) {
+            bebidas.add(rs.getString("NOMBRE"));
         }
+        return bebidas;
     }
 
-    public static ResultSet devolverBebida(String nombre, String tamaño){
-        ResultSet rs = null;
-        try{
-            PreparedStatement st =  connection.prepareStatement(
-                    "SELECT * FROM BEBIDA WHERE NOMBRE = ? AND TAMAÑO = ?"
-            );
-            st.setString(1,nombre);
-            st.setString(2,tamaño);
-            rs = st.executeQuery();
-        }catch (Exception ex){
-        } finally {
-            return rs;
-        }
+    public static ResultSet devolverBebida(String nombre, String tamaño) throws Exception{
+        ResultSet rs;
+        PreparedStatement st =  connection.prepareStatement(
+                "SELECT * FROM BEBIDA WHERE NOMBRE = ? AND TAMAÑO = ?"
+        );
+        st.setString(1,nombre);
+        st.setString(2,tamaño);
+        rs = st.executeQuery();
+        return rs;
     }
 
-    public static int modificarBebida(String nombreViejo, String nombreNuevo, String tamañoViejo, String tamañoNuevo,int precioNuevo) {
-        try{
-            PreparedStatement st = connection.prepareStatement(
-                    "UPDATE BEBIDA SET NOMBRE = ?," +
-                            "TAMAÑO = ?," +
-                            "PRECIO = ?" +
-                            "WHERE NOMBRE = ?" +
-                            "AND TAMAÑO = ?"
-            );
+    public static int modificarBebida(String nombreViejo, String nombreNuevo, String tamañoViejo, String tamañoNuevo,int precioNuevo) throws Exception {
+        PreparedStatement st = connection.prepareStatement(
+                "UPDATE BEBIDA SET NOMBRE = ?," +
+                        "TAMAÑO = ?," +
+                        "PRECIO = ?" +
+                        "WHERE NOMBRE = ?" +
+                        "AND TAMAÑO = ?"
+        );
 
-            st.setString(1, nombreNuevo);
-            st.setString(2, tamañoNuevo);
-            st.setInt(3, precioNuevo);
-            st.setString(4, nombreViejo);
-            st.setString(5, tamañoViejo);
+        st.setString(1, nombreNuevo);
+        st.setString(2, tamañoNuevo);
+        st.setInt(3, precioNuevo);
+        st.setString(4, nombreViejo);
+        st.setString(5, tamañoViejo);
 
-            return st.executeUpdate();
-        } catch (Exception ex) {
-            return 0;
-        }
+        return st.executeUpdate();
     }
 
-    public static void limpiarTablaBebidas() {
-        try{
-            Statement st =  connection.createStatement();
-            String query = "DELETE FROM BEBIDA";
-            st.execute(query);
-        }catch (Exception ex){
-        }
+    public static void limpiarTablaBebidas() throws Exception{
+        Statement st =  connection.createStatement();
+        String query = "DELETE FROM BEBIDA";
+        st.execute(query);
     }
-
-
-
 }

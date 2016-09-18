@@ -8,6 +8,7 @@ import org.junit.Test;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.*;
 import static helperCargaDatos.CargaDatosPrueba.cargarIngredientes;
+import static ejercicio1.IngredienteDAO.*;
 
 /**
  * Created by Julian on 16/9/16.
@@ -22,15 +23,15 @@ public class IngredienteDAOTest {
     @Test
     public void testCargaInicial() throws Exception {
         List<String> esperado = asList("papa","carneParaMilanesa","panRallado","huevo","lechuga","tomate","fideos","salsa","cebolla");
-        List<String> resultado = IngredienteDAO.devolverIngredientes();
+        List<String> resultado = devolverIngredientes();
         assertArrayEquals(esperado.toArray(),resultado.toArray());
     }
 
     @Test
     public void testAltaIngrediente() throws Exception {
-        IngredienteDAO.altaIngrediente("manteca", "lacteo");
+        altaIngrediente("manteca", "lacteo");
 
-        List<String> ingredientes = IngredienteDAO.devolverIngredientes();
+        List<String> ingredientes = devolverIngredientes();
         assertTrue(ingredientes.contains("manteca"));
         assertEquals(10, ingredientes.size());
     }
@@ -38,19 +39,19 @@ public class IngredienteDAOTest {
     @Test
     public void testBajaIngrediente() throws Exception {
         String ingredienteBorrar = "huevo";
-        int resultado = IngredienteDAO.bajaIngrediente(ingredienteBorrar);
+        int resultado = bajaIngrediente(ingredienteBorrar);
         assertEquals(1,resultado);
 
-        List<String> ingredientes = IngredienteDAO.devolverIngredientes();
+        List<String> ingredientes = devolverIngredientes();
         assertFalse(ingredientes.contains(ingredienteBorrar));
     }
 
     @Test
     public void testModificarIngrediente() throws Exception {
-        int result = IngredienteDAO.modificarIngrediente("salsa", "cafe", "otros");
+        int result = modificarIngrediente("salsa", "cafe", "otros");
         assertEquals(1, result);
 
-        List<String> ingredientes = IngredienteDAO.devolverIngredientes();
+        List<String> ingredientes = devolverIngredientes();
         assertTrue(ingredientes.size() == 9);
         assertTrue(ingredientes.contains("cafe"));
         assertFalse(ingredientes.contains("salsa"));
@@ -58,6 +59,6 @@ public class IngredienteDAOTest {
 
     @After
     public void tearDown() throws Exception {
-        IngredienteDAO.limpiarTablaIngredientes();
+        limpiarTablaIngredientes();
     }
 }
