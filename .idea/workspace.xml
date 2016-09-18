@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23f7c325-0823-4417-94cd-46e9ecc4d5c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB_TP_4/DB_H2.mv.db" afterPath="$PROJECT_DIR$/DB_TP_4/DB_H2.mv.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Helpers/src/helpers/Helpers.java" afterPath="$PROJECT_DIR$/Helpers/src/helpers/Helpers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java" afterPath="$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP3/TP3.iml" afterPath="$PROJECT_DIR$/TP3/TP3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP3/src/ejercicio6/MatrizTranspuesta.java" afterPath="$PROJECT_DIR$/TP3/src/ejercicio6/MatrizTranspuesta.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP3/test/ejercicio5/BalanceadorTest.java" afterPath="$PROJECT_DIR$/TP3/test/ejercicio5/BalanceadorTest.java" />
-    </list>
+    <list default="true" id="23f7c325-0823-4417-94cd-46e9ecc4d5c7" name="Default" comment="" />
     <ignored path="Paradigmas.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,8 +70,8 @@
       <file leaf-file-name="MatrizTranspuestaTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio6/MatrizTranspuestaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -274,38 +266,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -974,14 +934,11 @@
       <workItem from="1472427044716" duration="35495000" />
       <workItem from="1473818801139" duration="14230000" />
       <workItem from="1474013443676" duration="12379000" />
-      <workItem from="1474145678481" duration="26205000" />
+      <workItem from="1474145678481" duration="26281000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatrizTranspuestaTest - 2016.09.18 at 04h 07m 51s.xml">
-      <configuration name="MatrizTranspuestaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MatrizTranspuestaTest - 2016.09.18 at 04h 08m 08s.xml">
       <configuration name="MatrizTranspuestaTest" configurationId="JUnit" />
     </history-entry>
@@ -1006,12 +963,15 @@
     <history-entry file="MatrizTranspuestaTest - 2016.09.18 at 04h 23m 05s.xml">
       <configuration name="MatrizTranspuestaTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MatrizTranspuestaTest - 2016.09.18 at 04h 28m 36s.xml">
+      <configuration name="MatrizTranspuestaTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MatrizTranspuestaTest_transponerMatriz - 2016.09.18 at 04h 21m 27s.xml">
       <configuration name="MatrizTranspuestaTest.transponerMatriz" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99379000" />
+    <option name="totallyTimeSpent" value="99455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1033,9 +993,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28861788" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34018987" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34018987" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.2811159" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4857595" sideWeight="0.6537911" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29113925" sideWeight="0.6537911" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23101266" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1693,8 +1653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio6/MatrizTranspuestaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>
