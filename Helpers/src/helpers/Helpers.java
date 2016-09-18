@@ -1,7 +1,10 @@
 package helpers;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.util.ArrayList;
 
 /**
  * Created by julianpascual on 9/4/16.
@@ -32,5 +35,22 @@ public final class Helpers {
         } catch (Exception ex) {
             return dbConnection;
         }
+    }
+
+    public static ArrayList<String> leerArchivo(String nombreArchivo) {
+        ArrayList<String> lineas = new ArrayList<>();
+        try {
+            ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(classloader.getResource(nombreArchivo).getPath()));
+            String line = bufferedReader.readLine();
+            while (line != null) {
+                lineas.add(line);
+                line = bufferedReader.readLine();
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return lineas;
     }
 }

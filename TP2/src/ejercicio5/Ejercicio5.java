@@ -42,7 +42,7 @@ public class Ejercicio5 {
         promedioPares = promedioNumeros(arrayPares);
 
         escribirArchivo("primos", convertirArray(arrayPrimos));
-        escribirArchivo("divisores de 3000", convertirArray(arrayDiv3000));
+        escribirArchivo("divisoresDe3000", convertirArray(arrayDiv3000));
         escribirArchivo("promedios", "Promedio de pares: " + promedioPares + "\nPromedio de impares: " + promedioImpares);
     }
 
@@ -81,11 +81,10 @@ public class Ejercicio5 {
     }
 
     public String convertirArray(ArrayList<Integer> numeros) {
-        String texto = "";
-
+        StringBuilder texto = new StringBuilder();
         for (int i = 0; i < numeros.size(); i++) {
-            texto = texto + numeros.get(i) + "\n";
+            texto.append(numeros.get(i) + "\n");
         }
-        return texto;
+        return texto.toString();
     }
 }
