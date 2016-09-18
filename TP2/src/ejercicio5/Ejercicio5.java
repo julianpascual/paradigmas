@@ -9,6 +9,7 @@ import java.io.Writer;
 import java.util.ArrayList;
 
 import static helpers.Helpers.esPrimo;
+import static helpers.Helpers.escribirArchivo;
 
 /**
  * Created by julianpascual on 9/3/16.
@@ -41,9 +42,9 @@ public class Ejercicio5 {
         promedioImpares = promedioNumeros(arrayImpares);
         promedioPares = promedioNumeros(arrayPares);
 
-        escribirArchivo("primos", convertirArray(arrayPrimos));
-        escribirArchivo("divisoresDe3000", convertirArray(arrayDiv3000));
-        escribirArchivo("promedios", "Promedio de pares: " + promedioPares + "\nPromedio de impares: " + promedioImpares);
+        escribirArchivo("resources/", "primos.txt", convertirArray(arrayPrimos));
+        escribirArchivo("resources/", "divisoresDe3000.txt", convertirArray(arrayDiv3000));
+        escribirArchivo("resources/", "promedios.txt", "Promedio de pares: " + promedioPares + "\nPromedio de impares: " + promedioImpares);
     }
 
     public int promedioNumeros(ArrayList<Integer> numeros) {
@@ -66,19 +67,6 @@ public class Ejercicio5 {
         }
     }
 
-    public void escribirArchivo(String fileName, String texto) {
-        try {
-            File statText = new File("resources/" + fileName + ".txt");
-            FileOutputStream is = new FileOutputStream(statText);
-            OutputStreamWriter osw = new OutputStreamWriter(is);
-            Writer w = new BufferedWriter(osw);
-            w.write(texto);
-            w.close();
-        } catch (IOException e) {
-            System.err.println("No se pudo crear el archivo.");
-        }
-
-    }
 
     public String convertirArray(ArrayList<Integer> numeros) {
         StringBuilder texto = new StringBuilder();

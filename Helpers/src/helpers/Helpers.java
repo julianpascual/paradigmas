@@ -1,7 +1,6 @@
 package helpers;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.ArrayList;
@@ -52,5 +51,18 @@ public final class Helpers {
             e.printStackTrace();
         }
         return lineas;
+    }
+
+    public static void escribirArchivo(String path, String fileName, String texto) {
+        try {
+            File statText = new File(path + fileName);
+            FileOutputStream is = new FileOutputStream(statText);
+            OutputStreamWriter osw = new OutputStreamWriter(is);
+            Writer w = new BufferedWriter(osw);
+            w.write(texto);
+            w.close();
+        } catch (IOException e) {
+            System.err.println("No se pudo crear el archivo.");
+        }
     }
 }

@@ -1,6 +1,5 @@
 package ejercicio5;
 
-import ejercicio5.Balanceador;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -40,6 +39,5 @@ public class BalanceadorTest {
         boolean estaBalanceada = balanceador.expresionBalanceada("{[1+2+(3*4)]/4");
         assertFalse(estaBalanceada);
     }
-
 }
 
