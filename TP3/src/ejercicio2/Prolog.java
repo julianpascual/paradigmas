@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -70,13 +71,39 @@ public class Prolog {
     }
 
     public static String hermanos(String hijo1, String hijo2) {
-//        TODO falta logica hermanos
-        return "";
+        try {
+            if (hijosPadre.get(hijo1).equals(hijosPadre.get(hijo2)) || hijosMadre.get(hijo1).equals(hijosMadre.get(hijo2))) {
+                return "SI";
+            } else {
+                return "NO";
+            }
+        } catch (Exception ex) {
+            return "NO";
+        }
     }
 
     public static String abuelo(String abuelo, String nieto) {
-//        TODO falta logica abuelo
-        return "";
+        String respuesta = "NO";
+        try {
+            for (Map.Entry<String, String> entry : hijosPadre.entrySet()) {
+                if (entry.getValue().equals(abuelo)) {
+                    for (Map.Entry<String, String> entry2 : hijosPadre.entrySet()) {
+                        if (entry2.getKey().equals(nieto) && entry2.getValue().equals(entry.getKey())) {
+                            respuesta = "SI";
+                            break;
+                        }
+                    }
+                    if (respuesta.equals("SI")) {
+                        break;
+                    }
+                }
+            }
+        } catch (Exception ex) {
+
+        } finally {
+            return respuesta;
+        }
+
     }
 
     public static void obtenerDiccionarioHijos(ArrayList<String> origenDatos) {
