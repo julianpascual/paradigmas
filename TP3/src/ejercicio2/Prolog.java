@@ -87,13 +87,8 @@ public class Prolog {
         try {
             for (Map.Entry<String, String> entry : hijosPadre.entrySet()) {
                 if (entry.getValue().equals(abuelo)) {
-                    for (Map.Entry<String, String> entry2 : hijosPadre.entrySet()) {
-                        if (entry2.getKey().equals(nieto) && entry2.getValue().equals(entry.getKey())) {
-                            respuesta = "SI";
-                            break;
-                        }
-                    }
-                    if (respuesta.equals("SI")) {
+                    if(hijosPadre.get(nieto).equals(entry.getKey())) {
+                        respuesta = "SI";
                         break;
                     }
                 }
