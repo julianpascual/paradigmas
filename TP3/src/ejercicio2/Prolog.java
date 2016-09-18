@@ -5,5 +5,5 @@ package ejercicio2;
  */
 public class Prolog {
 
-
+//    TODO Falta este ejercicio y los tests
 }

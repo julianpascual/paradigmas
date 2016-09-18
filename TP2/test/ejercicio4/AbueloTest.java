@@ -19,7 +19,7 @@ public class AbueloTest {
     @Test
     public void resolverEcuacion() throws Exception {
         int respuesta = abuelo.resolverEcuacion();
-        assertTrue(respuesta > 0);
+        assertTrue(respuesta == 2592);
     }
 
     @Test
