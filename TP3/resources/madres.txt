@@ -1,0 +1,4 @@
+madre(ana,juan)
+padre(juan,pablo)
+madre(laura,pedro)
+padre(pedro,juan)
