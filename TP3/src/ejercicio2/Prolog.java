@@ -34,12 +34,18 @@ public class Prolog {
                 sc = new Scanner(System.in);
                 String valor = sc.next();
 
-                System.out.println(evaluar(valor));
+                String respuesta = evaluar(valor);
+
+                if (!respuesta.isEmpty()) {
+                    System.out.println(respuesta);
+                } else {
+                    System.out.println("Comando incorrecto");
+                }
 
                 System.out.println("Queres seguir jugando? y/n");
-                String respuesta = sc.next();
+                String continuar = sc.next();
 
-                if (!respuesta.toLowerCase().startsWith("y")) {
+                if (!continuar.toLowerCase().startsWith("y")) {
                     seguimos = false;
                 }
 
@@ -65,12 +71,12 @@ public class Prolog {
 
     public static String hermanos(String hijo1, String hijo2) {
 //        TODO falta logica hermanos
-        return null;
+        return "";
     }
 
     public static String abuelo(String abuelo, String nieto) {
 //        TODO falta logica abuelo
-        return null;
+        return "";
     }
 
     public static void obtenerDiccionarioHijos(ArrayList<String> origenDatos) {
@@ -96,7 +102,6 @@ public class Prolog {
                 lineas.add(line);
                 line = bufferedReader.readLine();
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         }
