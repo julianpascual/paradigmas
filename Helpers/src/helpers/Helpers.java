@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * Created by julianpascual on 9/4/16.
  */
 public final class Helpers {
-    private static String connectionString = "jdbc:h2:~/IdeaProjects/paradigmas/DB_TP_4/DB_H2";
+    private static String connectionString = "jdbc:h2:~/paradigmas/DB_TP_4/DB_H2";
 
     public static boolean esPrimo(int num) {
         int cantDivisores = 0;

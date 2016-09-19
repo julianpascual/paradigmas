@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
  */
 public class MatrizTranspuestaTest {
     private MatrizTranspuesta matTr;
-    private String path = "/Users/julian/IdeaProjects/paradigmas/TP3/resources/";
+    private String path = "/Users/julianpascual/paradigmas/TP3/resources/";
 
     @Before
     public void setUp() throws Exception {
