@@ -7,26 +7,28 @@ import java.util.ArrayList;
  */
 public class Pila {
 
-    private ArrayList<String> pila;
+    private ArrayList<Character> pila;
 
-
-    public Pila(ArrayList<String> valores) {
+    public Pila(ArrayList<Character> valores) {
         this.pila = valores;
     }
 
-    public Pila(ArrayList<String> valores, int longitud) {
-
-        //TODO implementar constructor
-
+    public Pila(ArrayList<Character> valores, int longitud) {
+        //TODO review constructor
+        int i = 0;
+        pila = new ArrayList<>(longitud);
+        while (i < valores.size() && i < longitud) {
+            pila.add(valores.get(i));
+            i++;
+        }
     }
-
 
     public void push() {
-
+        this.pila.remove(this.pila.size() -1);
     }
 
-    public void pop() {
-
+    public void pop(Character c) {
+        this.pila.add(c);
     }
 
     public boolean isEmpty() {
