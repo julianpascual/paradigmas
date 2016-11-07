@@ -7,32 +7,34 @@ import java.util.ArrayList;
  */
 public class Pila {
 
-    private ArrayList<Character> pila;
+    private ArrayList<Character> pila = new ArrayList<>();
+    private int longMax = 0;
 
-    public Pila(ArrayList<Character> valores) {
-        this.pila = valores;
+    public Pila() {
     }
 
-    public Pila(ArrayList<Character> valores, int longitud) {
-        //TODO review constructor
-        int i = 0;
-        pila = new ArrayList<>(longitud);
-        while (i < valores.size() && i < longitud) {
-            pila.add(valores.get(i));
-            i++;
+    public Pila(int longitud) {
+        longMax = longitud;
+    }
+
+    public void pop() {
+        if (! this.isEmpty()) {
+            this.pila.remove(this.pila.size() - 1);
         }
     }
 
-    public void push() {
-        this.pila.remove(this.pila.size() -1);
-    }
-
-    public void pop(Character c) {
-        this.pila.add(c);
+    public void push(Character c) {
+        if (longMax != 0) {
+            if (this.length() < longMax) {
+                this.pila.add(c);
+            }
+        } else {
+            this.pila.add(c);
+        }
     }
 
     public boolean isEmpty() {
-        return this.pila.size() > 0 ? true : false;
+        return this.length() > 0 ? false : true;
     }
 
     public int length() {

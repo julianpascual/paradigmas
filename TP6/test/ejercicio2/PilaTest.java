@@ -27,35 +27,46 @@ public class PilaTest {
 
     @Test
     public void testConstructor() throws Exception {
-        Pila pila = new Pila(val);
+        Pila pila = new Pila();
+        inicializarPila(pila);
         assertEquals(5, pila.length());
     }
 
 
     @Test
     public void testConstructorConLongitud() throws Exception {
-        Pila pila = new Pila(val, 4);
-        assertEquals(4, pila.length());
+        Pila pila = new Pila(3);
+        inicializarPila(pila);
+        assertEquals(3, pila.length());
     }
 
     @Test
     public void testConstructorConLongitud2() throws Exception {
-        Pila pila = new Pila(val, 7);
-        assertEquals(7, pila.length());
-    }
-
-    @Test
-    public void testPush() throws Exception {
-        Pila pila = new Pila(val);
-        pila.push();
-        assertEquals(4, pila.length());
+        Pila pila = new Pila(7);
+        inicializarPila(pila);
+        assertEquals(5, pila.length());
     }
 
     @Test
     public void testPop() throws Exception {
-        Pila pila = new Pila(val);
-        pila.pop('c');
+        Pila pila = new Pila();
+        inicializarPila(pila);
+        pila.pop();
+        assertEquals(4, pila.length());
+    }
+
+    @Test
+    public void testPush() throws Exception {
+        Pila pila = new Pila();
+        inicializarPila(pila);
+        pila.push('c');
         assertEquals(6, pila.length());
     }
 
+
+    public void inicializarPila(Pila pila){
+        for (Character c : val) {
+            pila.push(c);
+        }
+    }
 }
