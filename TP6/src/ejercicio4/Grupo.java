@@ -1,12 +1,5 @@
 package ejercicio4;
 
-<<<<<<< HEAD
-/**
- * Created by Julian on 22/10/16.
- */
-public class Grupo {
-
-=======
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,5 +39,5 @@ public class Grupo {
         contacto.grupo=null;
         this.listaDeContactos.remove(contacto);
     }
->>>>>>> 8800a5ca5fa0ac2c20c975901a44b6fe18bd3d5f
+
 }

@@ -4,9 +4,9 @@ package ejemploMemento;
  * Created by julianpascual on 10/28/16.
  */
 public class Memento {
-    private final String nombre;
-    private final String apellido;
-    private final String telefono;
+    public String nombre;
+    public String apellido;
+    public String telefono;
 
     public Memento(String nombre, String apellido, String telefono) {
         this.nombre = nombre;

@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23f7c325-0823-4417-94cd-46e9ecc4d5c7" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
+    <list default="true" id="0a17f89c-40a7-4788-b08e-ea72c75df23e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio5/Gen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio5/GenomaHumano.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio5/Individuo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio6/Alumno.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio6/Asistente.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio6/Congreso.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio6/Particular.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio6/Presentador.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/src/ejercicio7/JuegoSilla.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/test/ejercicio3/BancoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/test/ejercicio5/IndividuoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/test/ejercicio6/CongresoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/test/ejercicio7/JuegoSillaTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TP6/src/ejercicio3/Cajero.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio3/Cliente.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TP6/src/ejercicio3/CuentaVip.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio3/ClienteVip.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patron-Memento/src/ejemploMemento/Contacto.java" afterPath="$PROJECT_DIR$/Patron-Memento/src/ejemploMemento/Contacto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Patron-Memento/src/ejemploMemento/Memento.java" afterPath="$PROJECT_DIR$/Patron-Memento/src/ejemploMemento/Memento.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP3/TP3.iml" afterPath="$PROJECT_DIR$/TP3/TP3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio3/Banco.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio3/Banco.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio3/Cuenta.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio3/Cuenta.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio4/ContactManager.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio4/ContactManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio4/Contacto.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio4/Contacto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio4/Grupo.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio4/Grupo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/test/ejercicio4/ContactManagerTest.java" afterPath="$PROJECT_DIR$/TP6/test/ejercicio4/ContactManagerTest.java" />
     </list>
-    <ignored path="Paradigmas.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
-    <ignored path=".idea/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,148 +41,123 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-  </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Paradigmas" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="Prolog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio2/Prolog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-=======
-      <file leaf-file-name="Pila.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="BebidaDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP4/src/ejercicio1/BebidaDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1474294395000" expanded="true" signature="540:596" ph="INSERT INTO BEBIDA... " />
-                <marker date="1474294395000" expanded="true" signature="932:1011" ph="DELETE FROM " />
-                <marker date="1474294395000" expanded="true" signature="1331:1351" ph="SELECT * FRO... BEBIDA" />
-                <marker date="1474294395000" expanded="true" signature="1709:1761" ph="SELECT * FRO... BEBIDA" />
-                <marker date="1474294395000" expanded="true" signature="2126:2322" ph="UPDATE BEBID... " />
-                <marker date="1474294395000" expanded="true" signature="2707:2725" ph="DELETE FROM " />
-              </folding>
-=======
-      <file leaf-file-name="Banco.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/Banco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="NumeroComplejo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio1/NumeroComplejo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-=======
-      <file leaf-file-name="Cuenta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/Cuenta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf>
+      <file leaf-file-name="Individuo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio5/Individuo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-=======
-      <file leaf-file-name="CuentaVip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/CuentaVip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Paradigmas.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Paradigmas.iml">
+      <file leaf-file-name="Contacto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio4/Contacto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-      <file leaf-file-name="Cajero.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/Cajero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+            <state relative-caret-position="735">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Pila.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java">
+      <file leaf-file-name="ContactManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio4/ContactManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="756">
+              <caret line="113" column="51" selection-start-line="113" selection-start-column="51" selection-end-line="113" selection-end-column="51" />
               <folding>
-                <element signature="e#201#202#0" expanded="false" />
-                <element signature="e#236#237#0" expanded="false" />
-                <element signature="e#441#442#0" expanded="false" />
-                <element signature="e#499#500#0" expanded="false" />
-                <element signature="e#526#527#0" expanded="false" />
-                <element signature="e#565#566#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
-=======
-      <file leaf-file-name="PilaTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio2/PilaTest.java">
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grupo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio4/Grupo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alumno.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio6/Alumno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JuegoSilla.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio7/JuegoSilla.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="e#199#207#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#1479#1496#0" expanded="true" />
+                <element signature="e#1877#1878#0" expanded="true" />
+                <element signature="e#1928#1929#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JuegoSillaTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio7/JuegoSillaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Presentador.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio6/Presentador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenomaHumano.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio5/GenomaHumano.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio5/Gen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +167,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -196,68 +183,35 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio1/ExpresionesAritmeticas.java" />
-        <option value="$PROJECT_DIR$/TP3/test/ejercicio1/ExpresionesAritmeticasTest.java" />
-=======
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio4/Balanceador.java" />
-        <option value="$PROJECT_DIR$/TP3/test/ejercicio4/BalanceadorTest.java" />
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio5/Balanceador.java" />
-        <option value="$PROJECT_DIR$/TP2/src/ejercicio6/Ejercicio6.java" />
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio7/FactorialRecursivo.java" />
-        <option value="$PROJECT_DIR$/TP3/test/ejercicio7/FactorialRecursivoTest.java" />
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio8/FibonacciRecursivo.java" />
-        <option value="$PROJECT_DIR$/TP3/test/ejercicio8/FibonacciRecursivoTest.java" />
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio9/CadenasRecursivas.java" />
-        <option value="$PROJECT_DIR$/TP3/test/ejercicio9/CadenasRecursivasTest.java" />
-        <option value="dbtable:/dc6ac997/064abed7-a111-47c8-b5e6-d4fc4ecc3641/DB_H2.PUBLIC.INGREDIENTE" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/064abed7-a111-47c8-b5e6-d4fc4ecc3641/console_1.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/064abed7-a111-47c8-b5e6-d4fc4ecc3641/console_2.sql" />
-        <option value="$USER_HOME$/Downloads/h2-1.4.192.jar!/org/h2/jdbc/JdbcConnection.class" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/064abed7-a111-47c8-b5e6-d4fc4ecc3641/console_3.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/064abed7-a111-47c8-b5e6-d4fc4ecc3641/console_4.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/064abed7-a111-47c8-b5e6-d4fc4ecc3641/console_5.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/064abed7-a111-47c8-b5e6-d4fc4ecc3641/console_6.sql" />
-        <option value="$PROJECT_DIR$/TP4/test/ejercicio1/BebidaDAOTest.java" />
-        <option value="$PROJECT_DIR$/TP4/test/ejercicio1/IngredienteDAOTest.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/064abed7-a111-47c8-b5e6-d4fc4ecc3641/console.sql" />
-        <option value="$PROJECT_DIR$/TP4/test/ejercicio1/PlatoDAOTest.java" />
-        <option value="$PROJECT_DIR$/TP4/src/ejercicio1/PlatoDAO.java" />
-        <option value="$PROJECT_DIR$/TP4/test/helperCargaDatos/CargaDatosPrueba.java" />
-        <option value="$PROJECT_DIR$/TP4/src/ejercicio1/PromocionDAO.java" />
-        <option value="$PROJECT_DIR$/TP4/src/ejercicio1/IngredienteDAO.java" />
-        <option value="$PROJECT_DIR$/TP4/src/ejercicio1/BebidaDAO.java" />
-        <option value="$PROJECT_DIR$/TP4/test/ejercicio1/PromocionDAOTest.java" />
-        <option value="$PROJECT_DIR$/TP2/test/ejercicio4/AbueloTest.java" />
-        <option value="$PROJECT_DIR$/TP3/test/ejercicio3/VerificadorTest.java" />
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio3/Verificador.java" />
-        <option value="$PROJECT_DIR$/TP3/resources/palabras.txt" />
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio4/Ahorcado.java" />
-        <option value="$PROJECT_DIR$/TP2/test/ejercicio5/Ejercicio5Test.java" />
-        <option value="$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java" />
-        <option value="$PROJECT_DIR$/TP3/resources/matriz.txt" />
-        <option value="$PROJECT_DIR$/TP3/test/ejercicio5/BalanceadorTest.java" />
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio6/MatrizTranspuesta.java" />
-        <option value="$PROJECT_DIR$/TP2/resources/padres.txt" />
-        <option value="$PROJECT_DIR$/TP2/resources/madres.txt" />
-        <option value="$PROJECT_DIR$/TP3/resources/padres.txt" />
-        <option value="$PROJECT_DIR$/TP3/resources/madres.txt" />
-        <option value="$PROJECT_DIR$/TP3/src/ejercicio2/Prolog.java" />
-        <option value="$PROJECT_DIR$/TP3/test/ejercicio6/MatrizTranspuestaTest.java" />
-        <option value="$PROJECT_DIR$/Helpers/src/helpers/Helpers.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/TP6/src/ejercicio1/NumeroComplejo.java" />
-        <option value="$PROJECT_DIR$/TP6/test/ejercicio1/NumeroComplejoTest.java" />
-        <option value="$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java" />
-=======
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/TP6/test/ejercicio2/PilaTest.java" />
         <option value="$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java" />
+        <option value="$PROJECT_DIR$/Patron-Memento/src/ejemploMemento/Contacto.java" />
+        <option value="$PROJECT_DIR$/Patron-Memento/src/ejemploMemento/Memento.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/TP6/src/ejercicio4/Contacto.java" />
         <option value="$PROJECT_DIR$/TP6/src/ejercicio4/Grupo.java" />
+        <option value="$PROJECT_DIR$/TP6/test/ejercicio4/ContactManagerTest.java" />
         <option value="$PROJECT_DIR$/TP6/src/ejercicio4/ContactManager.java" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio3/Cajero.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio3/CuentaVip.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio3/Cliente.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio3/ClienteVip.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio3/Banco.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio3/Cuenta.java" />
+        <option value="$PROJECT_DIR$/TP6/test/ejercicio3/BancoTest.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio5/Gen.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio5/Individuo.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio5/GenomaHumano.java" />
+        <option value="$PROJECT_DIR$/TP6/test/ejercicio5/IndividuoTest.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio6/Alumno.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio6/Asistente.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio6/Particular.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio6/Presentador.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio6/Congreso.java" />
+        <option value="$PROJECT_DIR$/TP6/test/ejercicio6/CongresoTest.java" />
+        <option value="$PROJECT_DIR$/TP6/src/ejercicio7/JuegoSilla.java" />
+        <option value="$PROJECT_DIR$/TP6/test/ejercicio7/JuegoSillaTest.java" />
       </list>
     </option>
   </component>
@@ -274,22 +228,20 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
-  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="width" value="2560" />
+    <option name="height" value="1342" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -307,28 +259,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-<<<<<<< HEAD
-      <pane id="Scope" />
-=======
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
+              <option name="myItemId" value="Paradigmas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -338,10 +274,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Patron-Memento" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,7 +287,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Patron-Memento" />
+              <option name="myItemId" value="TP6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Paradigmas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Paradigmas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ejercicio7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Paradigmas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Paradigmas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -363,144 +331,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
+      <pane id="PackagesPane" />
       <pane id="Scope" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$USER_HOME$/migration-tool" />
-    <property name="project.structure.last.edited" value="Modules" />
-=======
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/h2-1.4.192.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="database.data.extractors.current" value="SQL Inserts" />
-    <property name="prop_add_unversioned_files" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-<<<<<<< HEAD
-      <recent name="ejercicio1" />
-=======
-      <recent name="ejercicio2" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+      <recent name="ejercicio7" />
       <recent name="ejercicio6" />
-      <recent name="ejercicio3" />
-      <recent name="ejercicio9" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TP3/resources" />
-      <recent name="$PROJECT_DIR$/Helpers/src" />
-      <recent name="$PROJECT_DIR$/Helpers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TP3/resources" />
-      <recent name="$PROJECT_DIR$/Helpers/src" />
-      <recent name="$PROJECT_DIR$/Helpers" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
       <recent name="ejercicio5" />
+      <recent name="ejercicio3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TP6/src/ejercicio6" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TP2/src/ejercicio7" />
+      <recent name="$PROJECT_DIR$/TP6/src/ejercicio5" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="JUnit.All in TP2">
-=======
-  <component name="RunManager" selected="JUnit.PilaTest">
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-    <configuration default="false" name="All in TP1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="TP1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="&lt;default&gt; (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="&lt;default&gt; (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-=======
-    <configuration default="false" name="PilaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JuegoSillaTest">
+    <configuration default="false" name="BancoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ejercicio2.*" />
+          <option name="PATTERN" value="ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="TP6" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio2" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio2.PilaTest" />
+      <option name="PACKAGE_NAME" value="ejercicio3" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio3.BancoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -515,34 +392,20 @@
       <patterns />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="NumeroComplejoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BancoTest.extraer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ejercicio1.*" />
-=======
-    <configuration default="false" name="PilaTest.testConstructorConLongitud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ejercicio2.*" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+          <option name="PATTERN" value="ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="TP6" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-<<<<<<< HEAD
-      <option name="PACKAGE_NAME" value="ejercicio1" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio1.NumeroComplejoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-=======
-      <option name="PACKAGE_NAME" value="ejercicio2" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio2.PilaTest" />
-      <option name="METHOD_NAME" value="testConstructorConLongitud" />
+      <option name="PACKAGE_NAME" value="ejercicio3" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio3.BancoTest" />
+      <option name="METHOD_NAME" value="extraer" />
       <option name="TEST_OBJECT" value="method" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -555,26 +418,72 @@
       <patterns />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="All in TP2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="TP2" />
-=======
-    <configuration default="false" name="PilaTest.testConstructorConLongitud2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="IndividuoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ejercicio2.*" />
+          <option name="PATTERN" value="ejercicio5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="TP6" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio2" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio2.PilaTest" />
-      <option name="METHOD_NAME" value="testConstructorConLongitud2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ejercicio5" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio5.IndividuoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CongresoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ejercicio6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TP6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ejercicio6" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio6.CongresoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JuegoSillaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ejercicio7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TP6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ejercicio7" />
+      <option name="MAIN_CLASS_NAME" value="ejercicio7.JuegoSillaTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -591,53 +500,6 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -814,7 +676,6 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
-      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -893,7 +754,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Paradigmas" />
+      <module name="Helpers" />
       <envs />
       <method />
     </configuration>
@@ -918,6 +779,36 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -996,12 +887,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1030,59 +915,35 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="PromocionDAOTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ejercicio1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TP4" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ejercicio1" />
-      <option name="MAIN_CLASS_NAME" value="ejercicio1.PromocionDAOTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <envs />
-      <patterns />
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PromocionDAOTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in TP1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.&lt;default&gt; (1)" />
-<<<<<<< HEAD
-      <item index="3" class="java.lang.String" itemvalue="JUnit.&lt;default&gt; (2)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NumeroComplejoTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.All in TP2" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BancoTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BancoTest.extraer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IndividuoTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CongresoTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JuegoSillaTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in TP2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NumeroComplejoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.&lt;default&gt; (2)" />
-=======
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PilaTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PilaTest.testConstructorConLongitud" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PilaTest.testConstructorConLongitud2" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PilaTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PilaTest.testConstructorConLongitud2" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PilaTest.testConstructorConLongitud" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        <item index="3" class="java.lang.String" itemvalue="JUnit.&lt;default&gt; (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in TP1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JuegoSillaTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CongresoTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IndividuoTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BancoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BancoTest.extraer" />
       </list>
     </recent_temporary>
   </component>
@@ -1094,169 +955,80 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="StructureViewFactory">
-    <option name="AUTOSCROLL_MODE" value="false" />
-    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,VISIBILITY_SORTER" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23f7c325-0823-4417-94cd-46e9ecc4d5c7" name="Default" comment="" />
-      <created>1472092746274</created>
+      <changelist id="0a17f89c-40a7-4788-b08e-ea72c75df23e" name="Default" comment="" />
+      <created>1478205914868</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1472092746274</updated>
-      <workItem from="1472092747639" duration="8491000" />
-      <workItem from="1472101452254" duration="295000" />
-      <workItem from="1472310202331" duration="913000" />
-      <workItem from="1472425645223" duration="1075000" />
-      <workItem from="1472426734189" duration="296000" />
-      <workItem from="1472427044716" duration="35495000" />
-      <workItem from="1473818801139" duration="14230000" />
-      <workItem from="1474013443676" duration="12379000" />
-      <workItem from="1474145678481" duration="34857000" />
-<<<<<<< HEAD
-      <workItem from="1474294444750" duration="5235000" />
-      <workItem from="1474326842697" duration="36000" />
-      <workItem from="1477068527460" duration="2702000" />
-      <workItem from="1477339822311" duration="87000" />
-      <workItem from="1477678382854" duration="193000" />
-      <workItem from="1477678727329" duration="210000" />
-=======
-      <workItem from="1474294444750" duration="1718000" />
-      <workItem from="1477143670004" duration="3833000" />
-      <workItem from="1477147771880" duration="233000" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+      <updated>1478205914868</updated>
+      <workItem from="1478205916042" duration="6935000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-<<<<<<< HEAD
-    <history-entry file="All_in_TP2 - 2016.10.28 at 15h 19m 53s.xml">
-      <configuration name="All in TP2" configurationId="JUnit" />
-=======
-    <history-entry file="PilaTest - 2016.10.22 at 11h 08m 02s.xml">
-      <configuration name="PilaTest" configurationId="JUnit" />
+    <history-entry file="BancoTest - 2016.11.07 at 10h 24m 49s.xml">
+      <configuration name="BancoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PilaTest - 2016.10.22 at 11h 13m 39s.xml">
-      <configuration name="PilaTest" configurationId="JUnit" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+    <history-entry file="BancoTest - 2016.11.07 at 10h 25m 56s.xml">
+      <configuration name="BancoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PilaTest - 2016.10.22 at 11h 20m 04s.xml">
-      <configuration name="PilaTest" configurationId="JUnit" />
+    <history-entry file="BancoTest - 2016.11.07 at 10h 27m 14s.xml">
+      <configuration name="BancoTest" configurationId="JUnit" />
     </history-entry>
-<<<<<<< HEAD
-    <history-entry file="NumeroComplejoTest - 2016.10.21 at 14h 07m 49s.xml">
-      <configuration name="NumeroComplejoTest" configurationId="JUnit" />
-=======
-    <history-entry file="PilaTest - 2016.10.22 at 11h 29m 02s.xml">
-      <configuration name="PilaTest" configurationId="JUnit" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
+    <history-entry file="BancoTest - 2016.11.07 at 10h 27m 45s.xml">
+      <configuration name="BancoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PilaTest_testConstructorConLongitud - 2016.10.22 at 11h 00m 51s.xml">
-      <configuration name="PilaTest.testConstructorConLongitud" configurationId="JUnit" />
+    <history-entry file="BancoTest_extraer - 2016.11.07 at 10h 25m 49s.xml">
+      <configuration name="BancoTest.extraer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PilaTest_testConstructorConLongitud - 2016.10.22 at 11h 02m 11s.xml">
-      <configuration name="PilaTest.testConstructorConLongitud" configurationId="JUnit" />
+    <history-entry file="CongresoTest - 2016.11.07 at 10h 52m 55s.xml">
+      <configuration name="CongresoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PilaTest_testConstructorConLongitud - 2016.10.22 at 11h 03m 42s.xml">
-      <configuration name="PilaTest.testConstructorConLongitud" configurationId="JUnit" />
+    <history-entry file="CongresoTest - 2016.11.07 at 10h 53m 35s.xml">
+      <configuration name="CongresoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PilaTest_testConstructorConLongitud - 2016.10.22 at 11h 07m 36s.xml">
-      <configuration name="PilaTest.testConstructorConLongitud" configurationId="JUnit" />
+    <history-entry file="CongresoTest - 2016.11.07 at 10h 53m 55s.xml">
+      <configuration name="CongresoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PilaTest_testConstructorConLongitud - 2016.10.22 at 11h 07m 56s.xml">
-      <configuration name="PilaTest.testConstructorConLongitud" configurationId="JUnit" />
+    <history-entry file="IndividuoTest - 2016.11.07 at 10h 32m 29s.xml">
+      <configuration name="IndividuoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PilaTest_testConstructorConLongitud2 - 2016.10.22 at 11h 17m 19s.xml">
-      <configuration name="PilaTest.testConstructorConLongitud2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_default__(2) - 2016.09.19 at 19h 21m 57s.xml">
-      <configuration name="&lt;default&gt; (2)" configurationId="JUnit" />
+    <history-entry file="JuegoSillaTest - 2016.11.07 at 11h 00m 49s.xml">
+      <configuration name="JuegoSillaTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="116494000" />
-=======
-    <option name="totallyTimeSpent" value="113815000" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="6935000" />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="1440" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="1440" y="23" width="2560" height="1342" extended-state="6" />
     <editor active="true" />
-=======
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
-    <editor active="false" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37816456" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28861788" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40916032" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.2811159" order="8" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24905661" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32226416" sideWeight="0.6537911" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104845114" sideWeight="0.48451328" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13805436" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48101267" sideWeight="0.6537911" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22051696" sideWeight="0.48451328" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13872135" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909529" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16882068" sideWeight="0.5154867" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26566038" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3488" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671756" sideWeight="0.62947065" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2881119" sideWeight="0.49444443" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23101266" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21835443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1273,648 +1045,328 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP1/test/ejercicio5/MultiplosTest.java</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/TP6/test/ejercicio4/ContactManagerTest.java</url>
+          <line>23</line>
           <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP2/src/ejercicio3/Ejercicio3.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP2/test/ejercicio3/Ejercicio3Test.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP3/test/ejercicio1/ExpresionesAritmeticasTest.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP3/test/ejercicio9/CadenasRecursivasTest.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP4/src/ejercicio1/IngredienteDAO.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP4/src/ejercicio1/PlatoDAO.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP4/test/ejercicio1/PromocionDAOTest.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Helpers/src/helpers/Helpers.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="97" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="98" />
+      <option name="time" value="7" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="hijosPadre" />
-        <watch expression="hijosMadre" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/TP3/resources/palabras.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/resources/promedios.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java" />
-    <entry file="file://$PROJECT_DIR$/TP3/resources/matriz.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/resources/matrizTranspuesta.txt" />
-    <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio5/BalanceadorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio6/Ejercicio6Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/test/ejercicio5/Ejercicio5Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio8/FibonacciRecursivoTest.java">
-=======
-    <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio3/VerificadorTest.java">
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/resources/padres.txt" />
-    <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio9/CadenasRecursivasTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/resources/prolog.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio6/MatrizTranspuestaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB_TP_4/DB_H2.mv.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB_TP_4/DB_H2.trace.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/src/ejercicio1/PlatoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-          <folding>
-            <marker date="1474294395000" expanded="true" signature="534:580" ph="INSERT INTO PLATO... " />
-            <marker date="1474294395000" expanded="true" signature="956:990" ph="DELETE FROM " />
-            <marker date="1474294395000" expanded="true" signature="1350:1462" ph="UPDATE PLATO... " />
-            <marker date="1474294395000" expanded="true" signature="1897:1916" ph="SELECT * FRO... PLATO" />
-            <marker date="1474294395000" expanded="true" signature="2229:2258" ph="DELETE FROM " />
-            <marker date="1474294395000" expanded="true" signature="2313:2330" ph="DELETE FROM " />
-            <marker date="1474294395000" expanded="true" signature="2639:2876" ph="INSERT INTO PLATO_INGREDIENTE... " />
-            <marker date="1474294395000" expanded="true" signature="2729:2876" ph="SELECT p.ID,... PLATO" />
-            <marker date="1474294395000" expanded="true" signature="3190:3306" ph="DELETE FROM " />
-            <marker date="1474294395000" expanded="true" signature="3268:3305" ph="SELECT ID FR... PLATO" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/src/ejercicio1/PromocionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="105">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-=======
-        <state relative-caret-position="180">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/test/ejercicio1/IngredienteDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/test/ejercicio1/PromocionDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/test/helperCargaDatos/CargaDatosPrueba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/src/ejercicio1/IngredienteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding>
-            <element signature="method#modificarIngrediente#0;class#IngredienteDAO#0" expanded="false" />
-            <element signature="method#devolverLasVerduras#0;class#IngredienteDAO#0" expanded="false" />
-            <marker date="1474294395000" expanded="true" signature="426:476" ph="INSERT INTO INGREDIENTE... " />
-            <marker date="1474294395000" expanded="true" signature="756:796" ph="DELETE FROM " />
-            <marker date="1474294395000" expanded="true" signature="1087:1112" ph="SELECT * FRO... INGREDIENTE" />
-            <marker date="1474294395000" expanded="true" signature="1478:1598" ph="UPDATE INGRE... " />
-            <marker date="1474294395000" expanded="true" signature="1941:1989" ph="SELECT * FRO... INGREDIENTE" />
-            <marker date="1474294395000" expanded="true" signature="2214:2237" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/064abed7-a111-47c8-b5e6-d4fc4ecc3641">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>064abed7-a111-47c8-b5e6-d4fc4ecc3641</OriginalElement>
-          <nodes>
-            <node x="" y="">064abed7-a111-47c8-b5e6-d4fc4ecc3641.TABLE:DB_H2.PUBLIC.PROMOCION_PLATO</node>
-            <node x="" y="">064abed7-a111-47c8-b5e6-d4fc4ecc3641.TABLE:DB_H2.PUBLIC.BEBIDA</node>
-            <node x="" y="">064abed7-a111-47c8-b5e6-d4fc4ecc3641.TABLE:DB_H2.PUBLIC.PROMOCION</node>
-            <node x="" y="">064abed7-a111-47c8-b5e6-d4fc4ecc3641.TABLE:DB_H2.PUBLIC.PLATO</node>
-            <node x="" y="">064abed7-a111-47c8-b5e6-d4fc4ecc3641.TABLE:DB_H2.PUBLIC.INGREDIENTE</node>
-            <node x="" y="">064abed7-a111-47c8-b5e6-d4fc4ecc3641.TABLE:DB_H2.PUBLIC.PLATO_INGREDIENTE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="266.0" y="205.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP1/src/ejercicio1/Ejercicio1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio1/NumerosMasAltos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio2/Ejercicio2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio3/Ejercicio3.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-666">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-=======
-        <state relative-caret-position="135">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="44" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio4/Abuelo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio5/Ejercicio5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Helpers/src/helpers/Helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio6/Ejercicio6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio7/Rectangulos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP2/src/ejercicio8/Caracol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-=======
-    <entry file="file://$PROJECT_DIR$/TP3/resources/madres.txt" />
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio2/Prolog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio1/ExpresionesAritmeticas.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="46">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-=======
-        <state relative-caret-position="204">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio3/Verificador.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="135">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-=======
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio4/Ahorcado.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-704">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="44" />
-=======
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio5/Balanceador.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="-60">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-=======
-        <state relative-caret-position="1215">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio6/MatrizTranspuesta.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="330">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-=======
-        <state relative-caret-position="337">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-          <folding />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio7/FactorialRecursivo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio8/FibonacciRecursivo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio9/CadenasRecursivas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-<<<<<<< HEAD
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-=======
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/test/ejercicio1/BebidaDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/test/ejercicio1/PlatoDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="196">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="71" />
-=======
-        <state relative-caret-position="795">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP3/src/ejercicio2/Prolog.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1545">
-          <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-=======
-        <state relative-caret-position="615">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="71" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP4/src/ejercicio1/BebidaDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1474294395000" expanded="true" signature="540:596" ph="INSERT INTO BEBIDA... " />
-            <marker date="1474294395000" expanded="true" signature="932:1011" ph="DELETE FROM " />
-            <marker date="1474294395000" expanded="true" signature="1331:1351" ph="SELECT * FRO... BEBIDA" />
-            <marker date="1474294395000" expanded="true" signature="1709:1761" ph="SELECT * FRO... BEBIDA" />
-            <marker date="1474294395000" expanded="true" signature="2126:2322" ph="UPDATE BEBID... " />
-            <marker date="1474294395000" expanded="true" signature="2707:2725" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio1/NumeroComplejoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="465">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-=======
-        <state relative-caret-position="105">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-<<<<<<< HEAD
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#236#237#0" expanded="false" />
-            <element signature="e#441#442#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#565#566#0" expanded="false" />
-=======
-            <element signature="method#modificarIngrediente#0;class#IngredienteDAO#0" expanded="false" />
-            <element signature="method#devolverLasVerduras#0;class#IngredienteDAO#0" expanded="false" />
->>>>>>> f4d89a78e4bc011aa136e277cbf37b694b2ab726
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio1/NumeroComplejo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Paradigmas.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="90">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio1/NumeroComplejo.java">
+    <entry file="file://$PROJECT_DIR$/Patron-Memento/src/ejemploMemento/Contacto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio1/NumeroComplejoTest.java">
+    <entry file="file://$PROJECT_DIR$/Patron-Memento/src/ejemploMemento/Memento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio2/PilaTest.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="33">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio2/Pila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio1/NumeroComplejo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/Banco.java">
+    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio1/NumeroComplejoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio2/PilaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio4/ContactManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#258#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/Cuenta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/CuentaVip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio4/ContactManager.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/ClienteVip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/Banco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#183#192#0" expanded="true" />
+            <element signature="e#241#249#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#3569#3570#0" expanded="true" />
+            <element signature="e#3616#3617#0" expanded="true" />
+            <element signature="e#3663#3664#0" expanded="true" />
+            <element signature="e#3708#3709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio3/BancoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio5/IndividuoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio6/CongresoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio6/Asistente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio6/Congreso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio6/Particular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio6/Presentador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio5/Gen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio5/GenomaHumano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio5/Individuo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio4/Contacto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="735">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio4/ContactManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="113" column="51" selection-start-line="113" selection-start-column="51" selection-end-line="113" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio4/Grupo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio3/Cajero.java">
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio6/Alumno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/src/ejercicio7/JuegoSilla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#199#207#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#1479#1496#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1928#1929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio7/JuegoSillaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1959,7 +1411,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1972,19 +1424,6 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>TP4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

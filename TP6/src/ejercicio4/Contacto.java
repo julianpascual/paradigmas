@@ -1,19 +1,9 @@
 package ejercicio4;
 
 /**
-<<<<<<< HEAD
  * Created by Julian on 22/10/16.
  */
-public class Contacto {
 
-    public String nombre;
-    public String apellido;
-    public String mail;
-    public String telefono;
-
-=======
- * Created by julianpascual on 10/21/16.
- */
 public class Contacto {
     String nombre;
     String apellido;
@@ -77,5 +67,5 @@ public class Contacto {
     public void setEmail(String email) {
         this.email = email;
     }
->>>>>>> 8800a5ca5fa0ac2c20c975901a44b6fe18bd3d5f
+
 }

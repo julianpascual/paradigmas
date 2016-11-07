@@ -1,39 +1,14 @@
 package ejercicio4;
 
-<<<<<<< HEAD
 import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Created by Julian on 22/10/16.
  */
-public class ContactManager {
 
-    private List<Contacto> contactos;
-    private List<Grupo> grupos;
 
-    public void agregarContacto(Contacto c) {
-        contactos.add(c);
-    }
 
-    public void borrarContacto(Contacto c) {
-
-    }
-
-    public void modificarMailContacto(Contacto c, String mail) {
-
-    }
-
-    public void crearGrupo() {
-
-    }
-
-    public void modificarGrupo() {
-
-    }
-
-=======
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by julianpascual on 10/21/16.
@@ -120,7 +95,7 @@ public class ContactManager {
     private boolean existeGrupo(Grupo grupoNuevo) {
         boolean existe = false;
         for (Grupo grupo: getListaDeGrupos()){
-            if (grupo == grupoNuevo){
+            if (grupo.nombre == grupoNuevo.nombre){
                 existe = true;
             }
         }
@@ -136,7 +111,7 @@ public class ContactManager {
 
     public void modificarGrupo(Grupo grupoActual, Grupo grupoNuevo){
         for (Grupo grupo: getListaDeGrupos()){
-            if ( grupo == grupoActual) {
+            if ( grupo.nombre == grupoActual.nombre) {
                 grupo.nombre = grupoNuevo.nombre;
             }
         }
@@ -149,5 +124,5 @@ public class ContactManager {
     public void eliminarContactoDeGrupo(Contacto contacto,Grupo grupo){
         grupo.eliminarContacto(contacto);
     }
->>>>>>> 8800a5ca5fa0ac2c20c975901a44b6fe18bd3d5f
+
 }

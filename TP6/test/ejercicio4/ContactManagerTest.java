@@ -30,7 +30,7 @@ public class ContactManagerTest {
         cm.altaContacto(contacto);
         cm.bajaContacto(cm.getListaDeContactos().get(0));
         assertEquals(1, cm.getListaDeContactos().size());
-        assertEquals(1, cm.getGrupo("UAI").getListaDeContactos().size());
+        assertEquals(1, cm.getGrupo("Facu").getListaDeContactos().size());
     }
 
     @Test
@@ -42,34 +42,34 @@ public class ContactManagerTest {
 
     @Test
     public void agregarGrupo() throws Exception {
-        cm.agregarGrupo(new Grupo("Paradigmas"));
-        Assert.assertTrue(2==cm.getListaDeGrupos().size());
+        cm.agregarGrupo(new Grupo("TestGroup"));
+        assertEquals(2, cm.getListaDeGrupos().size());
     }
 
     @Test
     public void eliminarGrupo() throws Exception {
-        cm.agregarGrupo(new Grupo("Paradigmas"));
+        cm.agregarGrupo(new Grupo("TestGroup"));
         cm.eliminarGrupo(cm.getListaDeGrupos().get(0));
-        Assert.assertTrue(1==cm.getListaDeGrupos().size());
-        Assert.assertTrue(null==cm.getListaDeContactos().get(0).getGrupo());
+        assertEquals(1, cm.getListaDeGrupos().size());
+        assertNull(cm.getListaDeContactos().get(0).getGrupo());
     }
 
     @Test
     public void modificarGrupo() throws Exception {
-        cm.modificarGrupo(cm.getListaDeGrupos().get(0), new Grupo("Universidad"));
-        Assert.assertTrue("Universidad"==cm.getListaDeGrupos().get(0).nombre);
+        cm.modificarGrupo(cm.getListaDeGrupos().get(0), new Grupo("Test2"));
+        assertTrue("Test2" == cm.getListaDeGrupos().get(0).nombre);
     }
 
     @Test
     public void agregarContactoAGrupo() throws Exception {
-        cm.altaContacto(new Contacto("Juan", "Perez", 1146631281, "juan.perez@gmail.com"));
-        cm.agregarContactoAGrupo(cm.getContacto(1146631281), cm.getGrupo("UAI"));
-        Assert.assertTrue(2==cm.getGrupo("UAI").getListaDeContactos().size());
+        cm.altaContacto(new Contacto("Juan", "Gomez", "02442-35326", "juang@hotmail.com"));
+        cm.agregarContactoAGrupo(cm.getContacto("02442-35326"), cm.getGrupo("Facu"));
+        assertEquals(2 , cm.getGrupo("Facu").getListaDeContactos().size());
     }
 
     @Test
     public void eliminarContactoDeGrupo() throws Exception {
-        cm.eliminarContactoDeGrupo(cm.getContacto(1151385486), cm.getGrupo("UAI"));
-        Assert.assertTrue(0==cm.getGrupo("UAI").getListaDeContactos().size());
+        cm.eliminarContactoDeGrupo(cm.getContacto("115143252"), cm.getGrupo("Facu"));
+        assertEquals(0 , cm.getGrupo("Facu").getListaDeContactos().size());
     }
 }
