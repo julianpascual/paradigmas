@@ -49,7 +49,7 @@ public class BancoTest {
     @Test
     public void consultarSaldo() throws Exception {
         Cliente clienteDueño = banco.obtenerCliente(33282108);
-        double saldo=banco.consultarSaldo(clienteDueño, 23523, 4563);
+        double saldo = banco.consultarSaldo(clienteDueño, 23523, 4563);
         assertEquals(1556, saldo, 0.1);
     }
 

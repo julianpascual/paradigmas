@@ -70,10 +70,14 @@ public class Cliente {
         Cuenta cuenta = null;
         for (Cuenta c: this.getListaCuentas()) {
             if (c.getNumero() == numeroCuenta & getPin() == pin){
-                cuenta=c;
+                cuenta = c;
             }
         }
         return cuenta;
+    }
+
+    public void cobrarComision(Cuenta cuenta) {
+        cuenta.setSaldo(cuenta.getSaldo() - 6);
     }
 
     public Cliente(String nombre, String apellido, int dni, int pin) {

@@ -15,6 +15,12 @@ public class ClienteVip extends Cliente{
         return viveEnCapital;
     }
 
+    public void cobrarComision(Cuenta cuenta) {
+        if (viveEnCapital) {
+            cuenta.setSaldo(cuenta.getSaldo() - 2);
+        }
+    }
+
     public void setViveEnCapital(boolean viveEnCapital) {
         this.viveEnCapital = viveEnCapital;
     }

@@ -5,12 +5,18 @@
       <module fileurl="file://$PROJECT_DIR$/Helpers/Helpers.iml" filepath="$PROJECT_DIR$/Helpers/Helpers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Paradigmas.iml" filepath="$PROJECT_DIR$/Paradigmas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patron-Memento/Patron-Memento.iml" filepath="$PROJECT_DIR$/Patron-Memento/Patron-Memento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-project/SpringProject.iml" filepath="$PROJECT_DIR$/spring-project/SpringProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP1/TP1.iml" filepath="$PROJECT_DIR$/TP1/TP1.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP2/TP2.iml" filepath="$PROJECT_DIR$/TP2/TP2.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP3/TP3.iml" filepath="$PROJECT_DIR$/TP3/TP3.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP4/TP4.iml" filepath="$PROJECT_DIR$/TP4/TP4.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP6/TP6.iml" filepath="$PROJECT_DIR$/TP6/TP6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP6/TP6.iml" filepath="$PROJECT_DIR$/TP6/TP6.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP7/TP7.iml" filepath="$PROJECT_DIR$/TP7/TP7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-project/dao-module/dao-module.iml" filepath="$PROJECT_DIR$/spring-project/dao-module/dao-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-project/domain-module/domain-module.iml" filepath="$PROJECT_DIR$/spring-project/domain-module/domain-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-project/service-module/service-module.iml" filepath="$PROJECT_DIR$/spring-project/service-module/service-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-project/web-module/web-module.iml" filepath="$PROJECT_DIR$/spring-project/web-module/web-module.iml" />
     </modules>
   </component>
 </project>

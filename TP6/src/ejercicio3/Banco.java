@@ -50,7 +50,7 @@ public class Banco {
         Cuenta cuenta = obtenerCuenta(numeroCuenta);
         if (cliente.getPin() == pin){
             cuenta.setSaldo(cuenta.getSaldo() + deposito);
-            cobrar(cliente, cuenta);
+            cobrarComisionOperacion(cliente, cuenta);
             System.out.println("Operacion exitosa");
         } else {
             System.out.println("Clave incorrecta");
@@ -62,7 +62,7 @@ public class Banco {
         if (cliente.getPin() == pin){
             if (cuenta.getSaldo()>extraccion) {
                 cuenta.setSaldo(cuenta.getSaldo() - extraccion);
-                cobrar(cliente, cuenta);
+                cobrarComisionOperacion(cliente, cuenta);
                 System.out.println("Operacion Exitosa");
                 System.out.println("Se extrajo de su cuenta el monto de $" + extraccion );
             } else {
@@ -75,7 +75,7 @@ public class Banco {
 
     public double consultarSaldo(Cliente cliente, int numeroCuenta, int pin){
         Cuenta cuenta=obtenerCuenta(numeroCuenta);
-        cobrar(cliente,cuenta);
+        cobrarComisionOperacion(cliente,cuenta);
         System.out.println("Operacion exitosa");
         return cuenta.getSaldo();
     }
@@ -84,22 +84,16 @@ public class Banco {
         Cuenta cuenta=obtenerCuenta(numeroCuenta);
         if (cliente.getPin() == pinActual) {
             cliente.setPin(pinNuevo);
-            cobrar(cliente, cuenta);
+            cobrarComisionOperacion(cliente, cuenta);
             System.out.println("Operacion exitosa");
         } else {
             System.out.println("Clave incorrecta");
         }
     }
 
-    public void cobrar(Cliente cliente, Cuenta cuenta){
-        Cuenta c=cliente.getCuenta(cuenta.getNumero(), cliente.getPin());
-        if (cliente instanceof ClienteVip){
-            if (((ClienteVip) cliente).isViveEnCapital()) {
-                c.setSaldo(c.getSaldo() - 2);
-            }
-        } else {
-            c.setSaldo(c.getSaldo()-6);
-        }
+    public void cobrarComisionOperacion(Cliente cliente, Cuenta cuenta){
+        Cuenta c = cliente.getCuenta(cuenta.getNumero(), cliente.getPin());
+        cliente.cobrarComision(c);
     }
 
     public double generarInforme(){
