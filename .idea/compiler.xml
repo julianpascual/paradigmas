@@ -38,6 +38,7 @@
       <module name="domain-module" target="1.6" />
       <module name="ParadigmsExample" target="1.6" />
       <module name="service-module" target="1.6" />
+      <module name="spring-project" target="1.6" />
       <module name="web-module" target="1.6" />
     </bytecodeTargetLevel>
   </component>

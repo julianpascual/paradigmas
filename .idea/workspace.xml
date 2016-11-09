@@ -2,63 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a17f89c-40a7-4788-b08e-ea72c75df23e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_module_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_module_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjtools_1_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_4_3_8_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_8_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_8_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Patron-Memento/Patron-Memento.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP6/TP6.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TP7/TP7.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/target/classes/ar/edu/uai/paradigms/aspect/LoggingAspect.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/target/classes/ar/edu/uai/paradigms/dao/PersistentDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/target/classes/ar/edu/uai/paradigms/dao/PersonDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/target/classes/ar/edu/uai/repository/database/ImprovedH2Dialect.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/domain-module/target/classes/ar/edu/uai/model/person/Person.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/domain-module/target/classes/ar/edu/uai/model/person/PersonCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/rest-ui/restclient-ui-3.5-jar-with-dependencies.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/target/classes/ar/edu/uai/paradigms/service/PersonService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/target/classes/ar/edu/uai/paradigms/service/impl/PersonServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/paradigms/authentication/CustomUrlRequestMatcher.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/paradigms/authentication/RestAuthenticationEntryPoint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/paradigms/authentication/SavedRequestAwareAuthenticationSuccessHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/paradigms/authentication/SimpleAuthenticationProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/paradigms/controller/person/PersonController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/paradigms/dto/person/PersonCriteriaDTO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/paradigms/dto/person/PersonDTO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/paradigms/translator/person/PersonTranslator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/SpringProject.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/dao-module.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/src/main/java/ar/edu/uai/paradigms/aspect/LoggingAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/src/main/java/ar/edu/uai/paradigms/dao/PersistentDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/src/main/java/ar/edu/uai/paradigms/dao/PersonDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/src/main/java/ar/edu/uai/repository/database/ImprovedH2Dialect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/src/main/resources/config.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/src/main/resources/dao-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/target/classes/META-INF/aop-ajc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/target/classes/builddef.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/target/classes/config.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/dao-module/target/classes/dao-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/domain-module/domain-module.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/domain-module/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/domain-module/src/main/java/ar/edu/uai/model/person/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/domain-module/src/main/java/ar/edu/uai/model/person/PersonCriteria.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/domain-module/target/classes/META-INF/aop-ajc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/domain-module/target/classes/builddef.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/service-module.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/src/main/java/ar/edu/uai/paradigms/service/PersonService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/src/main/java/ar/edu/uai/paradigms/service/impl/PersonServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/src/main/resources/service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/target/classes/META-INF/aop-ajc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/target/classes/builddef.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/service-module/target/classes/service-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/spring-project.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/java/ar/edu/uai/paradigms/authentication/CustomUrlRequestMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/java/ar/edu/uai/paradigms/authentication/RestAuthenticationEntryPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/java/ar/edu/uai/paradigms/authentication/SavedRequestAwareAuthenticationSuccessHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/java/ar/edu/uai/paradigms/authentication/SimpleAuthenticationProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/java/ar/edu/uai/paradigms/controller/person/PersonController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/java/ar/edu/uai/paradigms/dto/person/PersonCriteriaDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/java/ar/edu/uai/paradigms/dto/person/PersonDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/java/ar/edu/uai/paradigms/translator/person/PersonTranslator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/resources/ar/edu/uai/config.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/webapp/WEB-INF/application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/webapp/WEB-INF/pages/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/META-INF/aop-ajc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/ar/edu/uai/config.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/builddef.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/target/classes/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-project/web-module/web-module.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-project" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio3/Banco.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio3/Banco.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio3/Cliente.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio3/Cliente.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/src/ejercicio3/ClienteVip.java" afterPath="$PROJECT_DIR$/TP6/src/ejercicio3/ClienteVip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TP6/test/ejercicio3/BancoTest.java" afterPath="$PROJECT_DIR$/TP6/test/ejercicio3/BancoTest.java" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,18 +108,7 @@
     <favorites_list name="Paradigmas" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MatrizTranspuestaTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio6/MatrizTranspuestaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TP7/src/ejercicio3/Direccion.java" />
         <option value="$PROJECT_DIR$/TP7/src/ejercicio3/Persona.java" />
         <option value="$PROJECT_DIR$/TP7/src/ejercicio4/ProgramaEj4.java" />
         <option value="$PROJECT_DIR$/TP7/src/ejercicio4/Ejercicio4.java" />
@@ -165,6 +179,7 @@
         <option value="$PROJECT_DIR$/TP6/test/ejercicio3/BancoTest.java" />
         <option value="$PROJECT_DIR$/TP6/src/ejercicio3/ClienteVip.java" />
         <option value="$PROJECT_DIR$/TP3/test/ejercicio6/MatrizTranspuestaTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -216,7 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,45 +260,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TP7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paradigmas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="spring-project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -990,6 +973,7 @@
       <workItem from="1478533091658" duration="466000" />
       <workItem from="1478533653823" duration="2859000" />
       <workItem from="1478660783651" duration="1358000" />
+      <workItem from="1478663843715" duration="485000" />
     </task>
     <servers />
   </component>
@@ -1026,7 +1010,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15756000" />
+    <option name="totallyTimeSpent" value="16241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -1034,22 +1018,19 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2642405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34810126" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31170887" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3114504" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3109434" sideWeight="0.49841145" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25605816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25546876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1059,7 +1040,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2642405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1110,7 +1094,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TP7/src/ejercicio6/Ticket.java" />
     <entry file="file://$PROJECT_DIR$/TP7/src/ejercicio6/tipoLocalidad.java" />
     <entry file="file://$PROJECT_DIR$/TP7/src/ejercicio7/Carne.java" />
     <entry file="file://$PROJECT_DIR$/TP7/src/ejercicio7/Chango.java" />
@@ -1168,14 +1151,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-project/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-project/pom.xml" />
     <entry file="file://$PROJECT_DIR$/TP6/test/ejercicio3/BancoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1223,10 +1199,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TP3/test/ejercicio6/MatrizTranspuestaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="525">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1286,11 +1270,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringProject</last-edited>
+          <last-edited>spring-project</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
