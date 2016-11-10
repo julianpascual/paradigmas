@@ -15,6 +15,7 @@ public class ChangoTest {
     private Lacteos lacteo1;
     private Enlatados enlatado1;
     private Perfume perfume;
+
     @Before
     public void setUp() throws Exception {
         chango=new Chango();
@@ -43,6 +44,30 @@ public class ChangoTest {
     @Test
     public void getProductos() throws Exception {
         assertEquals(950, chango.getProductos().get(3).getPrecioVenta(), 0.1);
+    }
+
+    @Test
+    public void testCalculoDePromocion() throws Exception {
+        chango = new Chango();
+        Indumentaria remera = new Indumentaria("Nike", "L");
+        remera.setPrecio(10);
+        remera.setNombre("remera");
+        chango.agregarProducto(remera);
+        remera = new Indumentaria("Nike", "L");
+        remera.setPrecio(10);
+        remera.setNombre("remera");
+        chango.agregarProducto(remera);
+        remera = new Indumentaria("Nike", "L");
+        remera.setPrecio(10);
+        remera.setNombre("remera");
+        chango.agregarProducto(remera);
+        int cantDeProductosEnPromocion = 0;
+        for (ProductoDeVenta prod : chango.getProductos()) {
+            if (prod.getPrecioVenta() == 3.0) {
+                cantDeProductosEnPromocion ++;
+            }
+        }
+        assertEquals(1, cantDeProductosEnPromocion);
     }
 
 }

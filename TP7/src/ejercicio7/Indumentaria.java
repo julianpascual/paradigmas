@@ -40,15 +40,15 @@ private  String nombre;
     }
     @Override
     public int hashCode(){
-        int result=17;
-        result=37*result+this.getNombre().hashCode();
+        int result = 23;
+        result = 33 * result + this.getNombre().hashCode();
         return result;
     }
 
-    /**Promo Segunda Undidad 80% de descuento*/
+    /**Promo Segunda Undidad 70% de descuento*/
     @Override
     public void promoDescuento70SegundaUnidad() {
-        setPrecio(getPrecioVenta()*0.30);
+        setPrecio(getPrecioVenta() * 0.30);
     }
 
 }

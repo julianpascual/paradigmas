@@ -11,14 +11,18 @@ public class Chango {
     private List<ProductoDeVenta> productos =new ArrayList<ProductoDeVenta>();
 
     public void agregarProducto(ProductoDeVenta pProducto){
-        boolean flag=false;
-        for (int i= 0;i<productos.size();i++)
-            if (flag==false && pProducto.equals(productos.get(i)))
-            {
-                pProducto.promoDescuento70SegundaUnidad();
-                flag=true;
+        int cantProductos = 0;
+        for (int i= 0; i < productos.size(); i++) {
+            if (pProducto.equals(productos.get(i))) {
+                cantProductos ++;
             }
-        this.productos.add(pProducto);}
+        }
+        if ((cantProductos + 1) % 2 == 0 ) {
+            pProducto.promoDescuento70SegundaUnidad();
+        }
+        this.productos.add(pProducto);
+    }
+
     public List<ProductoDeVenta> getProductos(){return this.productos;}
 
 }

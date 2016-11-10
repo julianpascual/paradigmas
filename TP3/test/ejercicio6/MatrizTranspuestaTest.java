@@ -17,7 +17,9 @@ import static org.junit.Assert.*;
  */
 public class MatrizTranspuestaTest {
     private MatrizTranspuesta matTr;
-    private String path = "/Users/julianpascual/paradigmas/TP3/resources/";
+    private String path;
+
+
 
     @Before
     public void setUp() throws Exception {
@@ -27,12 +29,12 @@ public class MatrizTranspuestaTest {
     @Test
     public void transponerMatriz() throws Exception {
         ClassLoader classloader = this.getClass().getClassLoader();
-        String pathMatriz = classloader.getResource("matriz.txt").getPath();
-        matTr.transponerMatriz(pathMatriz, path);
+        path = new File(classloader.getResource("matriz.txt").getPath()).getParent();
+        matTr.transponerMatriz(path + "/matriz.txt", path);
 
 
         ArrayList<ArrayList<Integer>> matrizTranspuesta = matTr.obtenerMatrizDeArchivo(path + "matrizTranspuesta.txt");
-        ArrayList<ArrayList<Integer>> matrizOriginal = matTr.obtenerMatrizDeArchivo(pathMatriz);
+        ArrayList<ArrayList<Integer>> matrizOriginal = matTr.obtenerMatrizDeArchivo(path + "/matriz.txt");
 
 //      Como resultado la transpuesta debe tener 4 columnas y 6 filas
         assertEquals(matrizOriginal.size(), matrizTranspuesta.get(0).size());

@@ -51,8 +51,8 @@ public class Contacto {
 
     public void restore(Object objMemento) {
         Memento memento = (Memento) objMemento;
-        nombre = memento.nombre;
-        apellido = memento.apellido;
-        telefono = memento.telefono;
+        nombre = memento.getNombre();
+        apellido = memento.getApellido();
+        telefono = memento.getTelefono();
     }
 }

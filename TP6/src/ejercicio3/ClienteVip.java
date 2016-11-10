@@ -11,7 +11,7 @@ public class ClienteVip extends Cliente{
         this.viveEnCapital = viveEnCapital;
     }
 
-    public boolean isViveEnCapital() {
+    public boolean getViveEnCapital() {
         return viveEnCapital;
     }
 

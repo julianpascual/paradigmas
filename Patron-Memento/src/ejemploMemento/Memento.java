@@ -8,6 +8,18 @@ public class Memento {
     private String apellido;
     private String telefono;
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
     public Memento(String nombre, String apellido, String telefono) {
         this.nombre = nombre;
         this.apellido = apellido;

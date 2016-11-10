@@ -25,8 +25,8 @@ public class ProductoAlimenticio implements ProductoDeVenta
         }
         @Override
         public int hashCode(){
-            int result=17;
-            result=37*result+this.getNombre().hashCode();
+            int result = 23;
+            result = 33 * result + this.getNombre().hashCode();
             return result;
         }
 
