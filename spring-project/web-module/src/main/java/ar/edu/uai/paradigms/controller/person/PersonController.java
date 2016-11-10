@@ -1,5 +1,6 @@
 package ar.edu.uai.paradigms.controller.person;
 
+import ar.edu.uai.model.person.Person;
 import ar.edu.uai.paradigms.dto.person.PersonCriteriaDTO;
 import ar.edu.uai.paradigms.dto.person.PersonDTO;
 import ar.edu.uai.paradigms.service.PersonService;
@@ -11,6 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -65,11 +67,32 @@ public class PersonController {
         return new ResponseEntity<PersonDTO>(HttpStatus.NO_CONTENT);
     }
 
+//    @RequestMapping(method = RequestMethod.GET, value = "/{identifier}/getSons")
+//    public
+//    @ResponseBody
+//    ResponseEntity<List<PersonDTO>> getSons(@PathVariable Integer identifier) throws InterruptedException {
+//        List<PersonDTO> hijos = this.personTranslator.translateToDTO(this.personService.getSons(identifier));
+//        return new ResponseEntity<List<PersonDTO>>(hijos, HttpStatus.OK);
+//    }
+
     @RequestMapping(method = RequestMethod.DELETE, value = "/{identifier}")
     public
     @ResponseBody
     ResponseEntity<String> deletePerson(@PathVariable Integer identifier) {
         this.personService.deletePerson(identifier);
         return new ResponseEntity<String>(HttpStatus.NO_CONTENT);
+    }
+
+    @RequestMapping(method = RequestMethod.PATCH, value = "/{identifier}", consumes = "application/json")
+    public
+    @ResponseBody
+    ResponseEntity<PersonDTO>addSon(@PathVariable Integer identifier, @RequestBody PersonDTO personDTO){
+        Person son = this.personTranslator.translate(personDTO);
+        if (this.personService.retrievePerson(identifier)!=null & son!=null){
+            return new ResponseEntity<PersonDTO>(this.personTranslator.
+                    translateToDTO(this.personService.addSon(identifier, son)), HttpStatus.OK);
+        }else{
+            return new ResponseEntity<PersonDTO>(HttpStatus.NO_CONTENT);
+        }
     }
 }

@@ -11,4 +11,5 @@ public interface PersistentDAO<ENTITY, IDENTIFIER, CRITERIA> {
     public ENTITY update(ENTITY entity);
     public void delete(IDENTIFIER id);
     public List<ENTITY> retrieveByCriteria(CRITERIA criteria);
+//    public List<ENTITY> getSons(IDENTIFIER id);
 }

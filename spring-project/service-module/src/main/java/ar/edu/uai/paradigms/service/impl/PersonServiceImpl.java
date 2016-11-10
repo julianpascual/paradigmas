@@ -6,6 +6,7 @@ import ar.edu.uai.paradigms.dao.PersonDAO;
 import ar.edu.uai.paradigms.service.PersonService;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PersonServiceImpl implements PersonService {
@@ -30,6 +31,27 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public void deletePerson(Integer identifier) {
         this.personDAO.delete(identifier);
+    }
+
+    @Override
+    public Person updatePerson(Person person){
+        return this.personDAO.update(person);
+    }
+
+//    @Override
+//    public List<Person> getSons(Integer identifier) {
+//        return this.personDAO.getSons(identifier);
+//    }
+
+    @Transactional
+    @Override
+    public Person addSon(Integer fatherId, Person son) {
+        Person father = this.retrievePerson(fatherId);
+//        father.addSon(son);
+        son.setFather(father);
+        this.savePerson(son);
+        this.updatePerson(father);
+        return son;
     }
 
     @Override

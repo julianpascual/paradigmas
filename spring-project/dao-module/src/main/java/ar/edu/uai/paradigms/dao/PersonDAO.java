@@ -69,4 +69,10 @@ public class PersonDAO implements PersistentDAO<Person, Integer, PersonCriteria>
 
         return typedQuery.getResultList();
     }
+
+//    @Override
+//    public List<Person> getSons(Integer id) {
+//
+//    }
+
 }

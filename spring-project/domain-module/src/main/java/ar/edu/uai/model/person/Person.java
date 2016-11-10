@@ -2,8 +2,8 @@ package ar.edu.uai.model.person;
 
 
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "PERSON")
@@ -21,16 +21,28 @@ public class Person {
     @Column(name = "AGE", nullable = false)
     private Integer age;
 
-    @OneToOne
-    private Person padre;
+    @ManyToOne
+    @JoinColumn(name = "FATHER")
+    private Person father;
 
-    public Person() {
-    }
+//    @OneToMany
+//    @JoinColumn(name="FATHER")
+//    List<Person> sons = new ArrayList<Person>();
+
+//    public Person() {
+//    }
 
     public Person(Integer id, String name, Integer age) {
         this.id = id;
         this.name = name;
         this.age = age;
+    }
+
+    public Person(Integer id, String name, Integer age, Person father) {
+        this.id=id;
+        this.name = name;
+        this.age = age;
+        this.father = father;
     }
 
     public Integer getId() {
@@ -45,12 +57,24 @@ public class Person {
         return age;
     }
 
-    public Person getPadre() {
-        return padre;
+    public Person getFather() {
+        return father;
+    }
+
+    public void setFather(Person father) {
+        this.father = father;
     }
 
     @Override
     public String toString() {
         return this.getClass().getSimpleName() + " [id=" + id + ", name=" + name + ", age=" + age + "]";
     }
+
+//    public void setSons(List<Person> sons) {
+//        this.sons = sons;
+//    }
+//
+//    public void addSon(Person son){
+//        sons.add(son);
+//    }
 }
