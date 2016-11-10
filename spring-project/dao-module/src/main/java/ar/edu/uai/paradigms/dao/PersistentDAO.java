@@ -1,5 +1,7 @@
 package ar.edu.uai.paradigms.dao;
 
+import org.omg.CORBA.PUBLIC_MEMBER;
+
 import java.util.List;
 
 /**
@@ -11,5 +13,5 @@ public interface PersistentDAO<ENTITY, IDENTIFIER, CRITERIA> {
     public ENTITY update(ENTITY entity);
     public void delete(IDENTIFIER id);
     public List<ENTITY> retrieveByCriteria(CRITERIA criteria);
-//    public List<ENTITY> getSons(IDENTIFIER id);
+    public List<ENTITY> getSons(IDENTIFIER id);
 }

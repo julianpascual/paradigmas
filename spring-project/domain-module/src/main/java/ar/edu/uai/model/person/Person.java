@@ -1,6 +1,8 @@
 package ar.edu.uai.model.person;
 
 
+import org.hibernate.annotations.LazyCollection;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,12 +27,12 @@ public class Person {
     @JoinColumn(name = "FATHER")
     private Person father;
 
-//    @OneToMany
-//    @JoinColumn(name="FATHER")
-//    List<Person> sons = new ArrayList<Person>();
+    @OneToMany
+    @JoinColumn(name="FATHER")
+    List<Person> sons = new ArrayList<Person>();
 
-//    public Person() {
-//    }
+    public Person() {
+    }
 
     public Person(Integer id, String name, Integer age) {
         this.id = id;
@@ -38,12 +40,6 @@ public class Person {
         this.age = age;
     }
 
-    public Person(Integer id, String name, Integer age, Person father) {
-        this.id=id;
-        this.name = name;
-        this.age = age;
-        this.father = father;
-    }
 
     public Integer getId() {
         return id;
@@ -57,12 +53,19 @@ public class Person {
         return age;
     }
 
-    public Person getFather() {
-        return father;
-    }
-
     public void setFather(Person father) {
         this.father = father;
+    }
+
+    public void addSon(Person person)
+    {
+        if (person != null)
+        {
+            if (sons.contains(person) == false){
+                this.sons.add(person);
+                person.setFather(this);
+            }
+        }
     }
 
     @Override
@@ -70,11 +73,5 @@ public class Person {
         return this.getClass().getSimpleName() + " [id=" + id + ", name=" + name + ", age=" + age + "]";
     }
 
-//    public void setSons(List<Person> sons) {
-//        this.sons = sons;
-//    }
-//
-//    public void addSon(Person son){
-//        sons.add(son);
-//    }
+
 }

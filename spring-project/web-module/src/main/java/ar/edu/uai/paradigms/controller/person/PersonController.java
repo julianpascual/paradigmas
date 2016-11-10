@@ -67,13 +67,6 @@ public class PersonController {
         return new ResponseEntity<PersonDTO>(HttpStatus.NO_CONTENT);
     }
 
-//    @RequestMapping(method = RequestMethod.GET, value = "/{identifier}/getSons")
-//    public
-//    @ResponseBody
-//    ResponseEntity<List<PersonDTO>> getSons(@PathVariable Integer identifier) throws InterruptedException {
-//        List<PersonDTO> hijos = this.personTranslator.translateToDTO(this.personService.getSons(identifier));
-//        return new ResponseEntity<List<PersonDTO>>(hijos, HttpStatus.OK);
-//    }
 
     @RequestMapping(method = RequestMethod.DELETE, value = "/{identifier}")
     public
@@ -83,7 +76,7 @@ public class PersonController {
         return new ResponseEntity<String>(HttpStatus.NO_CONTENT);
     }
 
-    @RequestMapping(method = RequestMethod.PATCH, value = "/{identifier}", consumes = "application/json")
+    @RequestMapping(method = RequestMethod.PUT, value = "/{identifier}", consumes = "application/json")
     public
     @ResponseBody
     ResponseEntity<PersonDTO>addSon(@PathVariable Integer identifier, @RequestBody PersonDTO personDTO){
@@ -94,5 +87,16 @@ public class PersonController {
         }else{
             return new ResponseEntity<PersonDTO>(HttpStatus.NO_CONTENT);
         }
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/{identifier}/sons")
+    public
+    @ResponseBody
+    ResponseEntity<List<PersonDTO>> getSons(@PathVariable Integer identifier) throws InterruptedException {
+        List<PersonDTO> person = this.personTranslator.translateToDTO(this.personService.getSons(identifier));
+        if (person != null && person.size() > 0) {
+            return new ResponseEntity<List<PersonDTO>>(person, HttpStatus.OK);
+        }
+        return new ResponseEntity<List<PersonDTO>>(HttpStatus.NO_CONTENT);
     }
 }

@@ -27,6 +27,11 @@ public class PersonServiceImpl implements PersonService {
         return this.personDAO.retrieve(identifier);
     }
 
+    @Override
+    public List<Person> getSons(Integer identifier) {
+        return this.personDAO.getSons(identifier);
+    }
+
     @Transactional
     @Override
     public void deletePerson(Integer identifier) {
@@ -38,17 +43,12 @@ public class PersonServiceImpl implements PersonService {
         return this.personDAO.update(person);
     }
 
-//    @Override
-//    public List<Person> getSons(Integer identifier) {
-//        return this.personDAO.getSons(identifier);
-//    }
 
     @Transactional
     @Override
     public Person addSon(Integer fatherId, Person son) {
         Person father = this.retrievePerson(fatherId);
-//        father.addSon(son);
-        son.setFather(father);
+        father.addSon(son);
         this.savePerson(son);
         this.updatePerson(father);
         return son;

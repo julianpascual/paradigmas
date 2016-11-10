@@ -13,13 +13,13 @@ public interface PersonService {
 
     Person retrievePerson(Integer identifier);
 
+    List<Person> getSons(Integer identifier);
+
     void deletePerson(Integer identifier);
 
     Person updatePerson(Person person);
 
     Person addSon(Integer identifier, Person son);
-
-//    List<Person> getSons(Integer identifier);
 
     List<Person> retrieveByCriteria(PersonCriteria criteria);
 

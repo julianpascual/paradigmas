@@ -2,6 +2,7 @@ package ar.edu.uai.paradigms.dao;
 
 import ar.edu.uai.model.person.Person;
 import ar.edu.uai.model.person.PersonCriteria;
+import org.hibernate.criterion.Expression;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -30,6 +31,24 @@ public class PersonDAO implements PersistentDAO<Person, Integer, PersonCriteria>
     @Override
     public Person retrieve(Integer id) {
         return this.entityManager.find(Person.class, id);
+    }
+
+    @Override
+    public List<Person> getSons(Integer id) {
+        CriteriaBuilder cb = entityManager.getCriteriaBuilder();
+        CriteriaQuery<Person> query = cb.createQuery(Person.class);
+        Root<Person> person = query.from(Person.class);
+        query.select(person);
+
+        List<Predicate> predicates = new ArrayList<Predicate>();
+
+        predicates.add(cb.and(cb.equal(person.<Person>get("father").get("id"), id)));
+
+        query.where(predicates.toArray(new Predicate[predicates.size()]));
+
+        TypedQuery<Person> typedQuery = entityManager.createQuery(query);
+
+        return typedQuery.getResultList();
     }
 
     @Override
@@ -69,10 +88,5 @@ public class PersonDAO implements PersistentDAO<Person, Integer, PersonCriteria>
 
         return typedQuery.getResultList();
     }
-
-//    @Override
-//    public List<Person> getSons(Integer id) {
-//
-//    }
 
 }

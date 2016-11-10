@@ -15,19 +15,12 @@ public class PersonDTO {
 
     private String name;
     private int age;
-    private Person father;
-    private List<Person> sons;
 
     @JsonCreator
-    public PersonDTO(@JsonProperty("id") Integer id, @JsonProperty("name") String name, @JsonProperty("age") int age, @JsonProperty("father") Person father) {
+    public PersonDTO(@JsonProperty("id") Integer id, @JsonProperty("name") String name, @JsonProperty("age") int age) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.father = father;
-    }
-
-    public Person getFather() {
-        return father;
     }
 
     public Integer getId() {
